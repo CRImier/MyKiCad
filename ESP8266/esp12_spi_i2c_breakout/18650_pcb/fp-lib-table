@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints.pretty")(options "")(descr ""))
+  (lib (name art)(type KiCad)(uri C:/Users/Samsung/Documents/KiCad/ZeroPhone-PCBs/art)(options "")(descr ""))
+)

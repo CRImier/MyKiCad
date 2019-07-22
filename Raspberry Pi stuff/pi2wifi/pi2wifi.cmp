@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 03 May 2016 08:52:26 PM PDT
+
+BeginCmp
+TimeStamp = /576B39A7;
+Reference = P1;
+ValeurCmp = EN;
+IdModule  = TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B392F;
+Reference = P2;
+ValeurCmp = pi-gpio;
+IdModule  = pi-gpio;
+EndCmp
+
+BeginCmp
+TimeStamp = /576B3A1E;
+Reference = U1;
+ValeurCmp = ESP-12F;
+IdModule  = ESP-12-F;
+EndCmp
+
+EndListe

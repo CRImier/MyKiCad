@@ -1,0 +1,72 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 2X_Battery_Holder
+#
+DEF 2X_Battery_Holder BT 0 0 N Y 1 F N
+F0 "BT" -350 250 50 H V L CNN
+F1 "2X_Battery_Holder" -300 -300 50 H V L CNN
+F2 "" 0 40 50 V V C CNN
+F3 "" 0 40 50 V V C CNN
+DRAW
+S -300 150 300 -150 0 1 0 N
+S -240 -7 -60 -17 0 1 0 F
+S -240 50 -60 40 0 1 0 F
+S -212 -30 -92 -50 0 1 0 F
+S -212 27 -92 7 0 1 0 F
+S 60 -7 240 -17 0 1 0 F
+S 60 50 240 40 0 1 0 F
+S 88 -30 208 -50 0 1 0 F
+S 88 27 208 7 0 1 0 F
+P 2 0 1 10 -130 95 -90 95 N
+P 2 0 1 10 -110 115 -110 75 N
+P 2 0 1 10 170 95 210 95 N
+P 2 0 1 10 190 115 190 75 N
+X ~ 1 -150 200 150 D 50 50 1 1 P
+X ~ 2 150 200 150 D 50 50 1 1 P
+X ~ 3 -150 -200 150 U 50 50 1 1 P
+X ~ 4 150 -200 150 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_01X02
+#
+DEF CONN_01X02 J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "CONN_01X02" 100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse_Small
+#
+DEF Fuse_Small F 0 10 N N 1 F N
+F0 "F" 0 -60 50 H V C CNN
+F1 "Fuse_Small" 0 60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+$ENDFPLIST
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

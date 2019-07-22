@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name serial_light_pro)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)

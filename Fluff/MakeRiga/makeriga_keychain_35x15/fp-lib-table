@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name makeriga_keychain)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name MakeRiga)(type KiCad)(uri C:/Users/Samsung/Documents/KiCad/MakeRiga)(options "")(descr ""))
+)

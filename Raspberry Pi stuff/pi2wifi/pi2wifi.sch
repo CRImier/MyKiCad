@@ -1,0 +1,115 @@
+EESchema Schematic File Version 2
+LIBS:pi2wifi
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "4 may 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 P2
+U 1 1 576B392F
+P 7050 3750
+F 0 "P2" H 7050 4800 50  0000 C CNN
+F 1 "pi-gpio" V 7050 3750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 7050 2800 50  0001 C CNN
+F 3 "" H 7050 2800 50  0000 C CNN
+	1    7050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P1
+U 1 1 576B39A7
+P 5050 5300
+F 0 "P1" H 5050 5400 50  0000 C CNN
+F 1 "EN" V 5150 5300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5050 5300 50  0001 C CNN
+F 3 "" H 5050 5300 50  0000 C CNN
+	1    5050 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ESP-12E U1
+U 1 1 576B3A1E
+P 4350 3650
+F 0 "U1" H 4350 3550 50  0000 C CNN
+F 1 "ESP-12F" H 4350 3750 50  0000 C CNN
+F 2 "pi2wifi:ESP-12E" H 4350 3650 50  0001 C CNN
+F 3 "" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4750 2750 6000 2750
+Wire Wire Line
+	6000 2750 6000 3600
+Wire Wire Line
+	6000 3600 6800 3600
+Wire Wire Line
+	4750 4550 5600 4550
+Wire Wire Line
+	7300 5100 5600 5100
+Wire Wire Line
+	7300 4200 7300 5100
+Connection ~ 7300 4400
+Wire Wire Line
+	5600 5100 5600 4550
+Wire Wire Line
+	6800 4500 6000 4500
+Wire Wire Line
+	6000 4500 6000 5300
+Wire Wire Line
+	6000 5300 5250 5300
+Wire Wire Line
+	5250 3600 5800 3600
+Wire Wire Line
+	5800 3600 5800 4600
+Wire Wire Line
+	5800 4600 6800 4600
+Wire Wire Line
+	7300 3500 7300 2600
+Wire Wire Line
+	7300 2600 5250 2600
+Wire Wire Line
+	5250 2600 5250 3400
+Wire Wire Line
+	5250 3500 5450 3500
+Wire Wire Line
+	5450 3500 5450 2450
+Wire Wire Line
+	5450 2450 7500 2450
+Wire Wire Line
+	7500 2450 7500 3600
+Wire Wire Line
+	7500 3600 7300 3600
+Wire Wire Line
+	6150 3400 6800 3400
+Wire Wire Line
+	6800 3500 6400 3500
+Wire Wire Line
+	6400 3500 6400 3900
+Wire Wire Line
+	6400 3900 5250 3900
+Wire Wire Line
+	5250 3700 6150 3700
+Wire Wire Line
+	6150 3700 6150 3400
+Wire Wire Line
+	5250 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 2300
+Wire Wire Line
+	5650 2300 7700 2300
+Wire Wire Line
+	7700 2300 7700 3800
+Wire Wire Line
+	7700 3800 7300 3800
+$EndSCHEMATC

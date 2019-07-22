@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name usb_power_switcher)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name fp)(type KiCad)(uri "$(KIPRJMOD)/libs/fp.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name fuse_holder_breakout)(type KiCad)(uri C:/Users/Samsung/Documents/KiCad/Breakouts/fuse_holder_breakout)(options "")(descr ""))
+)

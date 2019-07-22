@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x50
+D Generic connector, double row, 02x25, counter clockwise pin numbering scheme (similar to DIP packge numbering)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x50_shd
+D Generic connector, double row, 02x25, counter clockwise pin numbering scheme (similar to DIP packge numbering)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x25_Counter_Clockwise
+D Generic connector, double row, 02x25, counter clockwise pin numbering scheme (similar to DIP packge numbering)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

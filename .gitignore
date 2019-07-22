@@ -1,0 +1,41 @@
+# Available on GH already
+ZeroPhone-PCBs/ 
+ZeroPhone-Mod-PCBs/
+EEEoma/
+# Boring and not mine
+Third-party/
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+_saved_*
+*.tmp
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+.dsn
+
+# Exported BOM files
+# *.xml
+# *.csv
+Thumbs.db
+gerbers/
+
+# Archive files
+*.zip
+*.rar
+
+# Rendered schematics
+#*.svg
+#*.pdf
+
+# Position files for pick&placing
+*.pos

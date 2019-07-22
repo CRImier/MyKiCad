@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pi5c16861_breakout)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)

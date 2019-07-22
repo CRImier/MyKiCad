@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name HR911105_RJ45)(type Legacy)(uri "$(KIPRJMOD)/HR911105_RJ45.mod")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/footprints.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+(module Fuseholder5x20_horiz_SemiClosed_Casing10x25mm
+  (layer F.Cu)
+  (tedit 5880C4BF)
+  (descr "Fuseholder, 5x20, Semi closed, horizontal, Casing 10x25mm,")
+  (tags "Fuseholder 5x20 Semi closed horizontal Casing 10x25mm Sicherungshalter halbgeschlossen ")
+  (fp_text reference REF** (at 11.00 -7.62) (layer F.SilkS) (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value Fuseholder5x20_horiz_SemiClosed_Casing10x25mm (at 12.27 7.62) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
+  (pad 2 thru_hole oval (at 22.00 0 270) (size 2.50 4.00) (drill 1.50) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at 0.00 0 270) (size 2.50 4.00) (drill 1.50) (layers *.Cu *.Mask)))

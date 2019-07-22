@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name lm339_battery_monitor)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)

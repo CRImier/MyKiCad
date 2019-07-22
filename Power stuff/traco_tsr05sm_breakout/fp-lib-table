@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name traco_tsr05sm_breakout)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name some_switch_breakout)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
