@@ -42,3 +42,6 @@ gerbers/
 
 #Some useless cache file
 fp-info-cache
+
+# "rescue" backup files
+rescue-backup/
