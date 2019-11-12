@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sy6280)(type Legacy)(uri "/home/arsenijs/pcb/MyKiCad/Power stuff/sy6280_breakout/sy6280.lib")(options "")(descr ""))
+)
