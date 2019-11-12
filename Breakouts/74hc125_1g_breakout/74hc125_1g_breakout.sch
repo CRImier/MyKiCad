@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xGxx:74AHC1G125 U1
+U 1 1 5DCB313E
+P 5650 2850
+F 0 "U1" H 5625 2676 50  0000 C CNN
+F 1 "74AHC1G125" H 5625 2585 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 5650 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2550 5650 2650
+$Comp
+L power:GND #PWR0101
+U 1 1 5DCB3580
+P 4950 2600
+F 0 "#PWR0101" H 4950 2350 50  0001 C CNN
+F 1 "GND" V 4950 2450 50  0000 R CNN
+F 2 "" H 4950 2600 50  0001 C CNN
+F 3 "" H 4950 2600 50  0001 C CNN
+	1    4950 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DCB35CD
+P 6500 2700
+F 0 "#PWR0102" H 6500 2450 50  0001 C CNN
+F 1 "GND" V 6505 2572 50  0000 R CNN
+F 2 "" H 6500 2700 50  0001 C CNN
+F 3 "" H 6500 2700 50  0001 C CNN
+	1    6500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5DCB3666
+P 4200 2700
+F 0 "C1" H 4292 2746 50  0000 L CNN
+F 1 "100nF" H 4292 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4200 2700 50  0001 C CNN
+F 3 "~" H 4200 2700 50  0001 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5DCB372C
+P 5800 2550
+F 0 "R1" H 5859 2596 50  0000 L CNN
+F 1 "PU" H 5859 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 2550 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5DCB388B
+P 4200 2600
+F 0 "#PWR0103" H 4200 2450 50  0001 C CNN
+F 1 "VCC" H 4217 2773 50  0000 C CNN
+F 2 "" H 4200 2600 50  0001 C CNN
+F 3 "" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5DCB38A9
+P 5900 2550
+F 0 "#PWR0104" H 5900 2400 50  0001 C CNN
+F 1 "VCC" V 5917 2678 50  0000 L CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2550 5650 2550
+$Comp
+L power:GND #PWR0105
+U 1 1 5DCB3B50
+P 4200 2800
+F 0 "#PWR0105" H 4200 2550 50  0001 C CNN
+F 1 "GND" H 4205 2627 50  0000 C CNN
+F 2 "" H 4200 2800 50  0001 C CNN
+F 3 "" H 4200 2800 50  0001 C CNN
+	1    4200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5DCB3E2A
+P 4750 2600
+F 0 "J1" H 4670 2917 50  0000 C CNN
+F 1 "Conn_01x03" H 4670 2826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 2600 50  0001 C CNN
+F 3 "~" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5DCB4077
+P 6700 2700
+F 0 "J2" H 6780 2742 50  0000 L CNN
+F 1 "Conn_01x03" H 6780 2651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6700 2700 50  0001 C CNN
+F 3 "~" H 6700 2700 50  0001 C CNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5DCB4126
+P 6500 2800
+F 0 "#PWR0106" H 6500 2650 50  0001 C CNN
+F 1 "VCC" V 6500 2950 50  0000 L CNN
+F 2 "" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0001 C CNN
+	1    6500 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2700 5400 2700
+Wire Wire Line
+	5400 2700 5400 2550
+Wire Wire Line
+	5400 2550 5650 2550
+Connection ~ 5650 2550
+Wire Wire Line
+	4950 2500 5350 2500
+Wire Wire Line
+	5350 2500 5350 2850
+Wire Wire Line
+	6500 2600 6150 2600
+Wire Wire Line
+	6150 2600 6150 2850
+Wire Wire Line
+	6150 2850 5900 2850
+$EndSCHEMATC
