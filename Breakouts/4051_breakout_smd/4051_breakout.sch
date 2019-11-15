@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:4051_breakout-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 4051 U1
+L cmos4000:4051 U1
 U 1 1 5CB4578E
 P 5050 3050
 F 0 "U1" H 5150 3050 50  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 5050 3050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4051 U2
+L cmos4000:4051 U2
 U 1 1 5CB45804
 P 5050 3050
 F 0 "U2" H 5150 3050 50  0000 C CNN
@@ -75,14 +44,8 @@ Connection ~ 4350 2850
 Connection ~ 4350 2950
 Connection ~ 4350 3050
 Connection ~ 4350 3150
-Connection ~ 4350 3350
-Connection ~ 4350 3450
-Connection ~ 4350 3550
-Connection ~ 4350 3650
-Connection ~ 5750 3550
-Connection ~ 5750 2450
 $Comp
-L VSS #PWR01
+L power:VSS #PWR01
 U 1 1 5CB458C9
 P 3400 3100
 F 0 "#PWR01" H 3400 2950 50  0001 C CNN
@@ -93,7 +56,7 @@ F 3 "" H 3400 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VDD #PWR02
+L power:VDD #PWR02
 U 1 1 5CB458E3
 P 3400 3800
 F 0 "#PWR02" H 3400 3650 50  0001 C CNN
@@ -104,7 +67,7 @@ F 3 "" H 3400 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x08 J2
+L conn:Conn_01x08 J2
 U 1 1 5CB45923
 P 4150 2850
 F 0 "J2" H 4150 3250 50  0000 C CNN
@@ -115,7 +78,7 @@ F 3 "" H 4150 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x08 J1
+L conn:Conn_01x08 J1
 U 1 1 5CB45973
 P 3200 3500
 F 0 "J1" H 3200 3900 50  0000 C CNN
@@ -126,7 +89,7 @@ F 3 "" H 3200 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VSS #PWR03
+L power:VSS #PWR03
 U 1 1 5CB459BF
 P 5950 4150
 F 0 "#PWR03" H 5950 4000 50  0001 C CNN
@@ -137,7 +100,7 @@ F 3 "" H 5950 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 5CB459D1
 P 5950 4050
 F 0 "C1" H 5960 4120 50  0000 L CNN
@@ -148,7 +111,7 @@ F 3 "" H 5950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR04
+L power:VDD #PWR04
 U 1 1 5CB45BE0
 P 5950 3950
 F 0 "#PWR04" H 5950 3800 50  0001 C CNN
@@ -159,7 +122,7 @@ F 3 "" H 5950 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L Device:R_Small R1
 U 1 1 5CB45D66
 P 4000 3250
 F 0 "R1" H 4030 3270 50  0000 L CNN
@@ -170,7 +133,7 @@ F 3 "" H 4000 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VSS #PWR05
+L power:VSS #PWR05
 U 1 1 5CB45E66
 P 4000 3150
 F 0 "#PWR05" H 4000 3000 50  0001 C CNN
@@ -180,7 +143,6 @@ F 3 "" H 4000 3150 50  0001 C CNN
 	1    4000 3150
 	1    0    0    -1  
 $EndComp
-Connection ~ 4000 3350
 Text GLabel 4350 3650 0    60   Input ~ 0
 C
 Text GLabel 3400 3200 2    60   Input ~ 0
