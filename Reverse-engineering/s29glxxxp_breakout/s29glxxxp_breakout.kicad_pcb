@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 120 107.65)
+    (aux_axis_origin 119.634 107.65)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
@@ -803,10 +803,10 @@
     )
   )
 
-  (gr_line (start 120 135.65) (end 120 107.65) (layer Edge.Cuts) (width 0.05) (tstamp 5DD327DA))
-  (gr_line (start 75 135.65) (end 120 135.65) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 75 107.65) (end 75 135.65) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 120 107.65) (end 75 107.65) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 119.634 135.65) (end 119.634 107.65) (layer Edge.Cuts) (width 0.05) (tstamp 5DD327DA))
+  (gr_line (start 75.438 135.65) (end 119.634 135.65) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 75.438 107.65) (end 75.438 135.65) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 119.634 107.65) (end 75.438 107.65) (layer Edge.Cuts) (width 0.05))
 
   (via (at 110.1 125.7) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 114.0625 125.6) (end 110.2 125.6) (width 0.25) (layer F.Cu) (net 1))
