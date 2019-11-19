@@ -1,0 +1,42 @@
+(module 4Way_Jumper (layer F.Cu) (tedit 5DD3404F)
+  (fp_text reference REF** (at -0.5 4.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 4Way_Jumper (at 0 -4) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd custom (at -2 2) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1.5) (xy -0.5 -1.5) (xy 1.5 0.5) (xy 1.5 1) (xy -1 1)
+) (width 0.1))
+    ))
+  (pad 3 smd custom (at 2 2) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.5 -1.5) (xy 1 -1.5) (xy 1 1) (xy -1.5 1) (xy -1.5 0.5)
+) (width 0.1))
+    ))
+  (pad "" smd custom (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -2) (xy -2 0) (xy 0 2) (xy 2 0)) (width 0.1))
+    ))
+  (pad 1 smd custom (at -2 -2) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1) (xy 1.5 -1) (xy 1.5 -0.5) (xy -0.5 1.5) (xy -1 1.5)
+) (width 0.1))
+    ))
+  (pad 4 smd custom (at 2 -2) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.5 -0.5) (xy 0.5 1.5) (xy 1 1.5) (xy 1 -1) (xy -1.5 -1)
+) (width 0.1))
+    ))
+)
