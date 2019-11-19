@@ -1,4 +1,280 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pkf4000:PKF4000 U1
+U 1 1 5DD32E86
+P 5100 3450
+F 0 "U1" H 5100 4065 50  0000 C CNN
+F 1 "PKF4000" H 5100 3974 50  0000 C CNN
+F 2 "prj:PKF4000_THT_SMD" H 5000 3450 50  0001 C CNN
+F 3 "" H 5000 3450 50  0001 C CNN
+	1    5100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U2
+U 1 1 5DD3300E
+P 6050 3700
+F 0 "U2" H 6050 3383 50  0000 C CNN
+F 1 "PC817" H 6050 3474 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5850 3500 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6050 3700 50  0001 L CNN
+	1    6050 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3800 5600 3800
+Wire Wire Line
+	5500 3200 5600 3200
+Wire Wire Line
+	5600 3200 5600 3600
+Wire Wire Line
+	5600 3600 5750 3600
+Wire Wire Line
+	5500 3100 5600 3100
+$Comp
+L Device:R_Small R3
+U 1 1 5DD33154
+P 5600 3700
+F 0 "R3" H 5659 3746 50  0000 L CNN
+F 1 "X" H 5659 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 3700 50  0001 C CNN
+F 3 "~" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 3600
+Connection ~ 5600 3800
+Wire Wire Line
+	5600 3800 5650 3800
+$Comp
+L Device:R_Small R4
+U 1 1 5DD33205
+P 5650 3900
+F 0 "R4" H 5709 3946 50  0000 L CNN
+F 1 "X" H 5709 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 3900 50  0001 C CNN
+F 3 "~" H 5650 3900 50  0001 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3800
+Wire Wire Line
+	5650 3800 5750 3800
+Wire Wire Line
+	5500 3900 5550 3900
+Wire Wire Line
+	5550 3900 5550 4000
+Wire Wire Line
+	5550 4000 5650 4000
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5DD333CF
+P 4400 3900
+F 0 "JP1" V 4446 3852 50  0000 R CNN
+F 1 "Vadj_NOR" V 4550 4000 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4400 3900 50  0001 C CNN
+F 3 "~" H 4400 3900 50  0001 C CNN
+	1    4400 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3800 4700 3800
+Wire Wire Line
+	4400 4000 4600 4000
+Wire Wire Line
+	4600 4000 4600 3900
+Wire Wire Line
+	4600 3900 4700 3900
+$Comp
+L Device:R_Small R1
+U 1 1 5DD33680
+P 4200 3900
+F 0 "R1" H 4259 3946 50  0000 L CNN
+F 1 "X" H 4259 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4200 3900 50  0001 C CNN
+F 3 "~" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3800 4400 3800
+Connection ~ 4400 3800
+Wire Wire Line
+	4200 4000 4400 4000
+Connection ~ 4400 4000
+$Comp
+L Device:R_Small R2
+U 1 1 5DD33A87
+P 4300 4150
+F 0 "R2" H 4359 4196 50  0000 L CNN
+F 1 "X" H 4359 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 4150 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4000 4200 4150
+Connection ~ 4200 4000
+$Comp
+L power:GND #PWR03
+U 1 1 5DD33D15
+P 5600 3200
+F 0 "#PWR03" H 5600 2950 50  0001 C CNN
+F 1 "GND" V 5605 3072 50  0000 R CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5600 3200
+$Comp
+L power:VCC #PWR02
+U 1 1 5DD33E09
+P 5600 3100
+F 0 "#PWR02" H 5600 2950 50  0001 C CNN
+F 1 "VCC" V 5617 3228 50  0000 L CNN
+F 2 "" H 5600 3100 50  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5DD33E53
+P 4400 4150
+F 0 "#PWR01" H 4400 4000 50  0001 C CNN
+F 1 "VCC" V 4417 4278 50  0000 L CNN
+F 2 "" H 4400 4150 50  0001 C CNN
+F 3 "" H 4400 4150 50  0001 C CNN
+	1    4400 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5DD33E7A
+P 6450 3600
+F 0 "R5" H 6509 3646 50  0000 L CNN
+F 1 "X" H 6509 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 3600 50  0001 C CNN
+F 3 "~" H 6450 3600 50  0001 C CNN
+	1    6450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5DD33F7C
+P 6800 3650
+F 0 "J6" H 6880 3642 50  0000 L CNN
+F 1 "Conn_01x02" H 6880 3551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6800 3650 50  0001 C CNN
+F 3 "~" H 6800 3650 50  0001 C CNN
+	1    6800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3800 6600 3800
+Wire Wire Line
+	6600 3800 6600 3750
+Wire Wire Line
+	6600 3600 6600 3650
+Wire Wire Line
+	6550 3600 6600 3600
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5DD34910
+P 4000 3100
+F 0 "J1" H 4100 3100 50  0000 C CNN
+F 1 "OUT1" H 4300 3100 50  0000 C CNN
+F 2 "prj:WireConnection_2.00mmDrill" H 4000 3100 50  0001 C CNN
+F 3 "~" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5DD34980
+P 4150 3200
+F 0 "J3" H 4250 3200 50  0000 C CNN
+F 1 "RTN" H 4450 3200 50  0000 C CNN
+F 2 "prj:WireConnection_2.00mmDrill" H 4150 3200 50  0001 C CNN
+F 3 "~" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5DD34B63
+P 4000 3300
+F 0 "J2" H 4100 3300 50  0000 C CNN
+F 1 "OUT2" H 4300 3300 50  0000 C CNN
+F 2 "prj:WireConnection_2.00mmDrill" H 4000 3300 50  0001 C CNN
+F 3 "~" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3300 4700 3300
+Wire Wire Line
+	4700 3200 4350 3200
+Wire Wire Line
+	4200 3100 4700 3100
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5DD3564C
+P 6500 3000
+F 0 "J4" H 6600 3000 50  0000 C CNN
+F 1 "IN+" H 6750 3000 50  0000 C CNN
+F 2 "prj:WireConnection_2.00mmDrill" H 6500 3000 50  0001 C CNN
+F 3 "~" H 6500 3000 50  0001 C CNN
+	1    6500 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5DD35652
+P 6500 3150
+F 0 "J5" H 6600 3150 50  0000 C CNN
+F 1 "IN-" H 6750 3150 50  0000 C CNN
+F 2 "prj:WireConnection_2.00mmDrill" H 6500 3150 50  0001 C CNN
+F 3 "~" H 6500 3150 50  0001 C CNN
+	1    6500 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DD3644C
+P 6300 3150
+F 0 "#PWR05" H 6300 2900 50  0001 C CNN
+F 1 "GND" V 6305 3022 50  0000 R CNN
+F 2 "" H 6300 3150 50  0001 C CNN
+F 3 "" H 6300 3150 50  0001 C CNN
+	1    6300 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5DD3648F
+P 6300 3000
+F 0 "#PWR04" H 6300 2850 50  0001 C CNN
+F 1 "VCC" V 6300 3150 50  0000 L CNN
+F 2 "" H 6300 3000 50  0001 C CNN
+F 3 "" H 6300 3000 50  0001 C CNN
+	1    6300 3000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pkf4000)(type Legacy)(uri "/home/arsenijs/pcb/KiCad/Power stuff/pkf4000_breakout/pkf4000.lib")(options "")(descr ""))
+)
