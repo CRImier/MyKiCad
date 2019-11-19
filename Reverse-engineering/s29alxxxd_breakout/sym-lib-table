@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name S29xLxxx)(type Legacy)(uri ${KIPRJMOD}/S29xLxxx.lib)(options "")(descr ""))
+  (lib (name s29alxxxd_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/s29alxxxd_breakout-rescue.lib)(options "")(descr ""))
+)
