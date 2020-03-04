@@ -1283,4 +1283,14 @@ Wire Wire Line
 	6150 2800 6700 2800
 Wire Wire Line
 	6150 2900 6600 2900
+Text Label 5800 2600 0    50   ~ 0
+SIM_VCC
+Text Label 5800 2700 0    50   ~ 0
+SIM_IO
+Text Label 5800 2800 0    50   ~ 0
+SIM_CLK
+Text Label 5800 2900 0    50   ~ 0
+SIM_RST
+Text Label 7150 3150 2    50   ~ 0
+SIM_VPP
 $EndSCHEMATC
