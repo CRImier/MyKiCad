@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name parallel_eeprom_reader)(type KiCad)(uri C:/Users/Samsung/Documents/KiCad/Reverse-engineering/parallel_eeprom_reader)(options "")(descr ""))
+)
