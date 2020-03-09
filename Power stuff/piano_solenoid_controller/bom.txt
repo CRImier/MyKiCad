@@ -1,0 +1,9 @@
+Ethernet, 30pcs (7EUR): https://lcsc.com/product-detail/Ethernet-Connectors-Modular-Connectors-RJ45-RJ11_CONNFLY-Elec-DS1128-09-S8B8S_C77851.html
+LED: 500pcs (4.5EUR), https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_D-R080508L3-KS2-Azarin_C130114.html
+1K resistors: 5000pcs (4EUR, reel), https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1001T5E_C17513.html
+Transistors: 500pcs (4EUR), https://lcsc.com/product-detail/Transistors-NPN-PNP_Changjiang-Electronics-Tech-CJ-BC857_C2139.html
+FET: 165pcs (32EUR), https://lcsc.com/product-detail/MOSFET_International-Rectifier_IRFZ44NPBF_International-Rectifier-IR-IRFZ44NPBF_C2586.html
+Optocouplers: 300pcs (9EUR), https://lcsc.com/product-detail/DIP-Optocouplers_UPC817BG_C118460.html
+Diodes: 500pcs (4.5EUR), https://lcsc.com/product-detail/Diodes-General-Purpose_SUNMATE-Elec-1N4007_C424499.html
+Buffers: 100pcs (3EUR), https://lcsc.com/product-detail/74-Series_Nexperia_74AHC1G125GW-125_74AHC1G125GW-125_C85397.html
+595: 100pcs (3EUR), https://lcsc.com/product-detail/74-Series_TM74HC595D_C127076.html
