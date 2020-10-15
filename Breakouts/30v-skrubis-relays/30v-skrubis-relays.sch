@@ -1,38 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:30v-skrubis-relays-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -73,7 +43,7 @@ L R_Small R1
 U 1 1 5AA84C19
 P 900 1300
 F 0 "R1" V 800 1300 50  0000 L CNN
-F 1 "1k" V 900 1250 50  0000 L CNN
+F 1 "1K" V 900 1250 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 900 1300 50  0001 C CNN
 F 3 "" H 900 1300 50  0001 C CNN
 	1    900  1300
@@ -93,7 +63,7 @@ $EndComp
 Wire Wire Line
 	750  1250 800  1250
 Wire Wire Line
-	800  1250 800  1100
+	800  1250 800  1150
 Wire Wire Line
 	750  1350 800  1350
 Wire Wire Line
@@ -101,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 1300 1000 1250
 Wire Wire Line
-	750  1450 1000 1450
+	750  1450 850  1450
 $Comp
 L GND #PWR02
 U 1 1 5AA84D0A
@@ -135,7 +105,7 @@ Connection ~ 950  1450
 Wire Wire Line
 	1600 1450 1600 1650
 Wire Wire Line
-	1600 1650 2050 1650
+	1600 1650 1900 1650
 $Comp
 L Jumper JP1
 U 1 1 5AA84DD1
@@ -234,11 +204,11 @@ Wire Wire Line
 Wire Wire Line
 	1300 700  1400 700 
 Wire Wire Line
-	1400 650  1400 900 
+	1400 650  1400 700 
 Wire Wire Line
-	1400 900  1650 900 
+	1400 900  1500 900 
 Wire Wire Line
-	1900 1000 2050 1000
+	1900 1000 2000 1000
 $Comp
 L Q_PNP_BEC Q1
 U 1 1 5AE4780B
@@ -271,7 +241,7 @@ L R_Small R3
 U 1 1 5AE47A6B
 P 1650 1100
 F 0 "R3" V 1550 1100 50  0000 L CNN
-F 1 "1k" V 1650 1050 50  0000 L CNN
+F 1 "10K" V 1650 1050 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1650 1100 50  0001 C CNN
 F 3 "" H 1650 1100 50  0001 C CNN
 	1    1650 1100
@@ -288,7 +258,7 @@ L R_Small R2
 U 1 1 5AE47AF2
 P 1500 650
 F 0 "R2" V 1400 650 50  0000 L CNN
-F 1 "1k" V 1500 600 50  0000 L CNN
+F 1 "50K" V 1500 600 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 1500 650 50  0001 C CNN
 F 3 "" H 1500 650 50  0001 C CNN
 	1    1500 650 
@@ -300,4 +270,18 @@ Wire Wire Line
 Wire Wire Line
 	1600 1050 1750 1050
 Connection ~ 1750 1050
+Wire Wire Line
+	850  1450 950  1450
+Wire Wire Line
+	950  1450 1000 1450
+Wire Wire Line
+	800  1150 800  1100
+Wire Wire Line
+	1900 1650 2050 1650
+Wire Wire Line
+	1500 900  1650 900 
+Wire Wire Line
+	2000 1000 2050 1000
+Wire Wire Line
+	1400 700  1400 900 
 $EndSCHEMATC
