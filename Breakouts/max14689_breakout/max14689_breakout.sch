@@ -1,0 +1,141 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L max14689:MAX14689 U1
+U 1 1 5ED09ADE
+P 4700 3250
+F 0 "U1" H 4350 3550 50  0000 C CNN
+F 1 "MAX14689" H 4350 3050 50  0000 C CNN
+F 2 "max14689_breakout:BGA-9_3x3_1.2x1.2mm" H 4600 3250 50  0001 C CNN
+F 3 "" H 4600 3250 50  0001 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5ED0A179
+P 5350 3200
+F 0 "J4" H 5268 2875 50  0000 C CNN
+F 1 "C2" H 5268 2966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 5350 3200 50  0001 C CNN
+F 3 "~" H 5350 3200 50  0001 C CNN
+	1    5350 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5ED0B9B8
+P 4050 3200
+F 0 "J2" H 3968 2875 50  0000 C CNN
+F 1 "C1" H 3968 2966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 4050 3200 50  0001 C CNN
+F 3 "~" H 4050 3200 50  0001 C CNN
+	1    4050 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5ED0C540
+P 4700 3500
+F 0 "#PWR0101" H 4700 3250 50  0001 C CNN
+F 1 "GND" H 4705 3327 50  0000 C CNN
+F 2 "" H 4700 3500 50  0001 C CNN
+F 3 "" H 4700 3500 50  0001 C CNN
+	1    4700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5ED0DCCC
+P 4050 2500
+F 0 "J1" H 3968 2717 50  0000 C CNN
+F 1 "VCC" H 3968 2626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4050 2500 50  0001 C CNN
+F 3 "~" H 4050 2500 50  0001 C CNN
+	1    4050 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5ED0D4D1
+P 5350 2500
+F 0 "J3" H 5430 2492 50  0000 L CNN
+F 1 "SEL" H 5430 2401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5350 2500 50  0001 C CNN
+F 3 "~" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5ED0F6C7
+P 4250 2600
+F 0 "#PWR0102" H 4250 2350 50  0001 C CNN
+F 1 "GND" H 4255 2427 50  0000 C CNN
+F 2 "" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5ED10426
+P 5150 2600
+F 0 "#PWR0103" H 5150 2350 50  0001 C CNN
+F 1 "GND" H 5155 2427 50  0000 C CNN
+F 2 "" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2900 4750 2500
+Wire Wire Line
+	4250 2500 4550 2500
+Wire Wire Line
+	4650 2500 4650 2900
+$Comp
+L Device:C_Small C1
+U 1 1 5ED11AC7
+P 4550 2600
+F 0 "C1" H 4642 2646 50  0000 L CNN
+F 1 "100nF" H 4550 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4550 2600 50  0001 C CNN
+F 3 "~" H 4550 2600 50  0001 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5ED11F7B
+P 4550 2700
+F 0 "#PWR0104" H 4550 2450 50  0001 C CNN
+F 1 "GND" H 4555 2527 50  0000 C CNN
+F 2 "" H 4550 2700 50  0001 C CNN
+F 3 "" H 4550 2700 50  0001 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+Text Label 4350 2500 0    50   ~ 0
+VCC
+Text Label 4900 2500 0    50   ~ 0
+SEL
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 4650 2500
+Wire Wire Line
+	4750 2500 5150 2500
+$EndSCHEMATC
