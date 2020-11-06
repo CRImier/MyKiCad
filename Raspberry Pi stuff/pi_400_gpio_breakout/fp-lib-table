@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pi_400_gpio_breakout)(type KiCad)(uri "/home/arsenijs/pcb/KiCad/Raspberry Pi stuff/pi_400_gpio_breakout")(options "")(descr ""))
+)
