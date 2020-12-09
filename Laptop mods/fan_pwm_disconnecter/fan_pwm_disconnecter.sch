@@ -1,0 +1,319 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xGxx:74AHC1G125 U1
+U 1 1 5DCB313E
+P 5650 2850
+F 0 "U1" H 5450 2750 50  0000 C CNN
+F 1 "74AHC1G125" H 5350 2650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 5650 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5DCB3666
+P 4550 2700
+F 0 "C1" H 4642 2746 50  0000 L CNN
+F 1 "100nF" H 4642 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4550 2700 50  0001 C CNN
+F 3 "~" H 4550 2700 50  0001 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5DCB372C
+P 5800 2550
+F 0 "R1" V 5800 2500 50  0000 L CNN
+F 1 "10K" V 5700 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 2550 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5DCB388B
+P 4550 2600
+F 0 "#PWR0103" H 4550 2450 50  0001 C CNN
+F 1 "VCC" H 4567 2773 50  0000 C CNN
+F 2 "" H 4550 2600 50  0001 C CNN
+F 3 "" H 4550 2600 50  0001 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5DCB38A9
+P 7050 1900
+F 0 "#PWR0104" H 7050 1750 50  0001 C CNN
+F 1 "VCC" V 7050 2050 50  0000 L CNN
+F 2 "" H 7050 1900 50  0001 C CNN
+F 3 "" H 7050 1900 50  0001 C CNN
+	1    7050 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DCB3B50
+P 4550 2800
+F 0 "#PWR0105" H 4550 2550 50  0001 C CNN
+F 1 "GND" H 4555 2627 50  0000 C CNN
+F 2 "" H 4550 2800 50  0001 C CNN
+F 3 "" H 4550 2800 50  0001 C CNN
+	1    4550 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 2850 0    50   Input ~ 0
+PWM_IN
+Text GLabel 5900 2850 2    50   Input ~ 0
+PWM_OUT
+Text GLabel 5400 2550 0    50   Input ~ 0
+PWM_DIS
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5FD06E10
+P 7250 1800
+F 0 "J3" H 7330 1792 50  0000 L CNN
+F 1 "EN" H 7330 1701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7250 1800 50  0001 C CNN
+F 3 "~" H 7250 1800 50  0001 C CNN
+	1    7250 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 1800 0    50   Input ~ 0
+PWM_DIS
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FD09633
+P 4550 1850
+F 0 "J1" H 4450 2050 50  0000 C CNN
+F 1 "IN" H 4450 1550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 4550 1850 50  0001 C CNN
+F 3 "~" H 4550 1850 50  0001 C CNN
+	1    4550 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP1
+U 1 1 5FD0DF8F
+P 5200 1650
+F 0 "JP1" H 5300 1750 50  0000 C CNN
+F 1 "NO" H 5200 1650 50  0000 C CNN
+F 2 "fan_pwm_disconnecter:SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm" H 5200 1650 50  0001 C CNN
+F 3 "~" H 5200 1650 50  0001 C CNN
+	1    5200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP2
+U 1 1 5FD0E74C
+P 5200 1800
+F 0 "JP2" H 5300 1900 50  0000 C CNN
+F 1 "NO" H 5200 1800 50  0000 C CNN
+F 2 "fan_pwm_disconnecter:SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm" H 5200 1800 50  0001 C CNN
+F 3 "~" H 5200 1800 50  0001 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP3
+U 1 1 5FD0EA66
+P 5200 1950
+F 0 "JP3" H 5300 2050 50  0000 C CNN
+F 1 "NO" H 5200 1950 50  0000 C CNN
+F 2 "fan_pwm_disconnecter:SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm" H 5200 1950 50  0001 C CNN
+F 3 "~" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP4
+U 1 1 5FD0ED92
+P 5200 2100
+F 0 "JP4" H 5300 2200 50  0000 C CNN
+F 1 "NO" H 5200 2100 50  0000 C CNN
+F 2 "fan_pwm_disconnecter:SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm" H 5200 2100 50  0001 C CNN
+F 3 "~" H 5200 2100 50  0001 C CNN
+	1    5200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1950 4900 1950
+Wire Wire Line
+	4750 2050 4850 2050
+Wire Wire Line
+	4850 2050 4850 2100
+Wire Wire Line
+	4850 2100 4900 2100
+Wire Wire Line
+	4750 1850 4850 1850
+Wire Wire Line
+	4850 1850 4850 1800
+Wire Wire Line
+	4850 1800 4900 1800
+Wire Wire Line
+	4750 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 1650
+Wire Wire Line
+	4800 1650 4900 1650
+Wire Wire Line
+	5500 1650 6050 1650
+Wire Wire Line
+	6050 1650 6050 1750
+Wire Wire Line
+	5500 1800 6000 1800
+Wire Wire Line
+	6000 1800 6000 1850
+Wire Wire Line
+	6000 1850 6050 1850
+Wire Wire Line
+	5500 1950 6050 1950
+Wire Wire Line
+	5500 2100 6000 2100
+Wire Wire Line
+	6000 2100 6000 2050
+Wire Wire Line
+	6000 2050 6050 2050
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FD18BCE
+P 7050 2250
+F 0 "TP1" V 7004 2438 50  0000 L CNN
+F 1 "VCC" V 7095 2438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7250 2250 50  0001 C CNN
+F 3 "~" H 7250 2250 50  0001 C CNN
+	1    7050 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FD1906D
+P 7050 2450
+F 0 "TP2" V 7004 2638 50  0000 L CNN
+F 1 "GND" V 7095 2638 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7250 2450 50  0001 C CNN
+F 3 "~" H 7250 2450 50  0001 C CNN
+	1    7050 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FD19371
+P 7050 2650
+F 0 "TP3" V 7004 2838 50  0000 L CNN
+F 1 "PWM_IN" V 7095 2838 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7250 2650 50  0001 C CNN
+F 3 "~" H 7250 2650 50  0001 C CNN
+	1    7050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FD195D7
+P 7050 2850
+F 0 "TP4" V 7004 3038 50  0000 L CNN
+F 1 "PWM_OUT" V 7095 3038 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7250 2850 50  0001 C CNN
+F 3 "~" H 7250 2850 50  0001 C CNN
+	1    7050 2850
+	0    1    1    0   
+$EndComp
+Text GLabel 7050 2650 0    50   Input ~ 0
+PWM_IN
+Text GLabel 7050 2850 0    50   Input ~ 0
+PWM_OUT
+$Comp
+L power:VCC #PWR0106
+U 1 1 5FD1A791
+P 7050 2250
+F 0 "#PWR0106" H 7050 2100 50  0001 C CNN
+F 1 "VCC" V 7067 2378 50  0000 L CNN
+F 2 "" H 7050 2250 50  0001 C CNN
+F 3 "" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FD1ABC8
+P 7050 2450
+F 0 "#PWR0107" H 7050 2200 50  0001 C CNN
+F 1 "GND" V 7050 2250 50  0000 C CNN
+F 2 "" H 7050 2450 50  0001 C CNN
+F 3 "" H 7050 2450 50  0001 C CNN
+	1    7050 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FD1C1E2
+P 5700 2900
+F 0 "#PWR0108" H 5700 2650 50  0001 C CNN
+F 1 "GND" H 5705 2727 50  0000 C CNN
+F 2 "" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5FD1CCDB
+P 5700 2800
+F 0 "#PWR0109" H 5700 2650 50  0001 C CNN
+F 1 "VCC" H 5717 2973 50  0000 C CNN
+F 2 "" H 5700 2800 50  0001 C CNN
+F 3 "" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2550 5600 2550
+Connection ~ 5600 2550
+Wire Wire Line
+	5600 2550 5700 2550
+Wire Wire Line
+	5600 2650 5650 2650
+Wire Wire Line
+	5600 2550 5600 2650
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin J2
+U 1 1 5FD0460C
+P 6250 1950
+F 0 "J2" H 6338 1772 50  0000 L CNN
+F 1 "OUT" H 6338 1863 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6250 1950 50  0001 C CNN
+F 3 "~" H 6250 1950 50  0001 C CNN
+	1    6250 1950
+	1    0    0    1   
+$EndComp
+Text GLabel 6250 1550 1    50   Input ~ 0
+SHD
+$Comp
+L power:GND #PWR0101
+U 1 1 5FD301D4
+P 5900 2550
+F 0 "#PWR0101" H 5900 2300 50  0001 C CNN
+F 1 "GND" V 5900 2350 50  0000 C CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
