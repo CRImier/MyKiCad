@@ -18,5 +18,13 @@ Let me know if you want to make it into one - I can help you understand how to r
 
 For custom connectors with I2C, SPI and I2S, signal names are silkscreened on the board's top layer, including the QWIIC pinout.
 
+v1.0:
+    - Initial commit
+v2
+    - stencil remains the same as in v1.0
+    - enlarged mounting holes to 3.2mm
+    - small routing mistakes fixed
+    - changed I2C header footprint and moved it closer to the board edge
+
 - PCB size: 55*60mm
 - Layer count: 4

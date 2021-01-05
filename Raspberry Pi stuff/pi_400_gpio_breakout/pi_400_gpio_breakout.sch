@@ -41,10 +41,10 @@ U 1 1 5D44ADD3
 P 6050 1300
 F 0 "J1" H 6000 1600 50  0000 L CNN
 F 1 "I2C" H 6000 1000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6050 1300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" H 6050 1300 50  0001 C CNN
 F 3 "~" H 6050 1300 50  0001 C CNN
 	1    6050 1300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C1
