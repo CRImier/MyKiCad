@@ -26,6 +26,7 @@ How to add this board to your laptop:
 11) Position and fasten the switch board inside the laptop's case, the same way. You can put it e.g. under the RAM/HDD cover or behind the Kensington lock plate.
 12) Use wires to connect the slide switch to the switch connector on the top of the board.
 
+This repository also includes files for manufacturing a 2x9 panel.
 Signal names are silkscreened on the board's bottom layer.
 
 - PCB size: 36.25mm*8.25mm
