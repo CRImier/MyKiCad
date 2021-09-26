@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hdmi_i2c_breakout)(type KiCad)(uri /home/arsenijs/pcb/KiCad/Breakouts/hdmi_i2c_breakout)(options "")(descr ""))
+)
