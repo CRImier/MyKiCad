@@ -656,7 +656,7 @@
   (gr_text + (at 128.103187 113.065227) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "0J-SS-148HM\nrelay breakout\nby CRImier, v1.0" (at 150.433 109.577) (layer F.SilkS)
+  (gr_text "0J-SS-148HM\nrelay breakout\nby CRImier, v2" (at 150.433 109.577) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 124.498187 115.200727) (end 164.498187 115.200727) (layer Edge.Cuts) (width 0.15))
