@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name microsd_sdio_breakout)(type KiCad)(uri /home/arsenijs/pcb/KiCad/Breakouts/microsd_sdio_breakout)(options "")(descr ""))
+)
