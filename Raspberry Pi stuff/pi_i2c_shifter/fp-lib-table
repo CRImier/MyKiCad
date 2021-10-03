@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pi_i2c_shifter)(type KiCad)(uri "/home/arsenijs/pcb/KiCad/Raspberry Pi stuff/pi_i2c_shifter")(options "")(descr ""))
+)
