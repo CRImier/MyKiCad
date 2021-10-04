@@ -29,14 +29,15 @@ _saved_*
 # *.csv
 Thumbs.db
 gerbers/
+gerbers_*/
 
 # Archive files
 *.zip
 *.rar
 
-# Rendered schematics
-#*.svg
-#*.pdf
+# Rendered schematics and exported board drawings
+*.svg
+*.pdf
 
 # Position files for pick&placing
 *.pos
