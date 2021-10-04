@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name fan_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/fan_controller-rescue.lib)(options "")(descr ""))
+)
