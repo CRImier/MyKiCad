@@ -9,3 +9,4 @@ Signal names are silkscreened on the bottom of the board.
 
 - PCB size: 21x14
 - Layer count: 2
+- Recommended thickness: 0.6mm/0.8mm (to be thin enough so that shields can be plugged on top of it)

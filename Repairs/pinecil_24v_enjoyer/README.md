@@ -15,3 +15,4 @@ Signal names are silkscreened on the board's bottom layers.
 
 - PCB size: 7.5*5mm
 - Layer count: 2
+- Recommended thickness: 0.6mm/0.8mm (thin enough that it ought to fit inside the Pinecil; untested, though)

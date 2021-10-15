@@ -9,3 +9,4 @@ Signal names are silkscreened on the board's bottom layer.
 
 - PCB size: 30.1*20.8mm
 - Layer count: 2
+- Recommended thickness: 1.6mm (HDMI side plug fits well on 1.6mm boards)

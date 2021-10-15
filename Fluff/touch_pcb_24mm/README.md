@@ -6,3 +6,5 @@ when panelized 2x2. 2x2 panel files included.
 
 - PCB size: 24mm*24mm
 - Layer count: 2
+- Recommended thickness: 1.6mm (the board was tested to work well with 1.6mm, and future mechanical integrations will assume 1.6mm to
+o)

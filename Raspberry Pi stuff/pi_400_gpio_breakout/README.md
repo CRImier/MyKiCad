@@ -28,3 +28,4 @@ v2
 
 - PCB size: 55*60mm
 - Layer count: 4
+- Recommended thickness: 1.6mm (it's a relatively large board and has to hold up well to bending)

@@ -14,3 +14,4 @@ Testpoint names are silkscreened on the board top layer.
 
 - PCB size:  61.8 mm* 51.9 mm 
 - Layer count: 2
+- Recommended thickness: 1.6mm (the board was tested to work well with 1.6mm, and future mechanical integrations will assume 1.6mm too)

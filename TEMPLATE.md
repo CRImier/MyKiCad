@@ -8,3 +8,4 @@ This board is untested and there's no guarantees of fitness.
 
 - PCB size: w*h
 - Layer count: 2
+- Recommended thickness: t
