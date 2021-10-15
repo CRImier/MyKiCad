@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+#End Doc Library

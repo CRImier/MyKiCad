@@ -137,11 +137,11 @@ SCL_SW
 Text GLabel 3250 3800 0    50   Input ~ 0
 SDA_SW
 $Comp
-L Switch:SW_SPDT SW1
+L sw_spdt_sh:SW_SPDT SW1
 U 1 1 615137B6
 P 2150 4550
-F 0 "SW1" H 2150 4835 50  0000 C CNN
-F 1 "SW_SPDT" H 2150 4744 50  0000 C CNN
+F 0 "SW1" H 2150 4350 50  0000 C CNN
+F 1 "SW_SPDT" H 2250 4750 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 2150 4550 50  0001 C CNN
 F 3 "~" H 2150 4550 50  0001 C CNN
 	1    2150 4550
@@ -182,7 +182,7 @@ F 3 "" H 2350 4650 50  0001 C CNN
 $EndComp
 Text GLabel 3100 4400 3    50   Input ~ 0
 CEC
-Text GLabel 3200 4400 3    50   Input ~ 0
+Text GLabel 3000 4400 3    50   Input ~ 0
 UTIL
 $Comp
 L power:GND #PWR0107
@@ -521,7 +521,7 @@ F 3 "~" H 3100 4200 50  0001 C CNN
 	1    3100 4200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3000 4400 3    50   Input ~ 0
+Text GLabel 3200 4400 3    50   Input ~ 0
 HPD
 $Comp
 L Device:R_Pack04 RN1
@@ -573,4 +573,15 @@ Wire Wire Line
 	5600 2300 5500 2300
 Wire Wire Line
 	5800 2300 5900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 616BB56B
+P 1950 4350
+F 0 "#PWR?" H 1950 4100 50  0001 C CNN
+F 1 "GND" V 1950 4150 50  0000 C CNN
+F 2 "" H 1950 4350 50  0001 C CNN
+F 3 "" H 1950 4350 50  0001 C CNN
+	1    1950 4350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
