@@ -1,0 +1,94 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# sw_spst_k1-1210un-01_K1-1210UN-01
+#
+DEF sw_spst_k1-1210un-01_K1-1210UN-01 SW 0 0 Y N 1 F N
+F0 "SW" 0 500 50 H V C CNN
+F1 "sw_spst_k1-1210un-01_K1-1210UN-01" 0 -100 50 H V C CNN
+F2 "" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+C -80 100 20 0 0 0 N
+C 80 100 20 0 0 0 N
+C -80 0 20 1 1 0 N
+C -80 200 20 1 1 0 N
+C -80 300 20 1 1 0 N
+C -80 400 20 1 1 0 N
+C 80 0 20 1 1 0 N
+C 80 200 20 1 1 0 N
+C 80 300 20 1 1 0 N
+C 80 400 20 1 1 0 N
+T 0 0 200 50 0 0 0 BL Normal 0 C C
+T 0 0 0 50 0 0 0 BR Normal 0 C C
+T 0 0 100 50 0 0 0 C Normal 0 C C
+T 0 0 300 50 0 0 0 TL Normal 0 C C
+T 0 0 400 50 0 0 0 TR Normal 0 C C
+P 2 0 0 0 -60 110 60 170 N
+P 2 1 1 0 -60 10 60 70 N
+P 2 1 1 0 -60 210 60 270 N
+P 2 1 1 0 -60 310 60 370 N
+P 2 1 1 0 -60 410 60 470 N
+X B 1 200 400 100 L 50 50 1 1 P
+X A 10 -200 400 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+X B 3 200 0 100 L 50 50 1 1 P
+X A 4 -200 100 100 R 50 50 1 1 P
+X B 5 200 200 100 L 50 50 1 1 P
+X A 6 -200 200 100 R 50 50 1 1 P
+X B 7 200 300 100 L 50 50 1 1 P
+X A 8 -200 300 100 R 50 50 1 1 P
+X B 9 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
