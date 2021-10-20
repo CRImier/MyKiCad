@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nvme_bm_to_m)(type KiCad)(uri "/home/arsenijs/pcb/KiCad/Laptop mods/nvme_bm_to_m")(options "")(descr ""))
+)
