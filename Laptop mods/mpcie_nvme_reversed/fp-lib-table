@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name mpcie_lib)(type KiCad)(uri ${KIPRJMOD}/mpcie_lib)(options "")(descr ""))
+  (lib (name nvme_lib)(type KiCad)(uri ${KIPRJMOD}/nvme_lib)(options "")(descr ""))
+)
