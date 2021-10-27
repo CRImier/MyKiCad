@@ -504,9 +504,9 @@ F 3 "" H 1800 2450 50  0001 C CNN
 	1    1800 2450
 	0    -1   -1   0   
 $EndComp
-Text Notes 3650 5950 0    394  ~ 0
+Text Notes 3600 6200 0    394  ~ 0
 CARD
-Text Notes 950  5950 0    394  ~ 0
+Text Notes 950  6200 0    394  ~ 0
 SOCKET
 Text GLabel 1800 3450 0    50   Input ~ 0
 DEVSLP
@@ -710,4 +710,26 @@ Text GLabel 5800 2100 0    50   Input ~ 0
 D-
 Text GLabel 5800 2200 0    50   Input ~ 0
 D+
+$Comp
+L power:GND #PWR?
+U 1 1 6172BF5C
+P 2350 5550
+F 0 "#PWR?" H 2350 5300 50  0001 C CNN
+F 1 "GND" H 2355 5377 50  0000 C CNN
+F 2 "" H 2350 5550 50  0001 C CNN
+F 3 "" H 2350 5550 50  0001 C CNN
+	1    2350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6172C327
+P 4050 5550
+F 0 "#PWR?" H 4050 5300 50  0001 C CNN
+F 1 "GND" H 4055 5377 50  0000 C CNN
+F 2 "" H 4050 5550 50  0001 C CNN
+F 3 "" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

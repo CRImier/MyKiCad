@@ -1,4 +1,4 @@
-(module Conn_TE-M.2-0.5-67P-doublesided_TypeM (layer F.Cu) (tedit 61708972)
+(module Conn_TE-M.2-0.5-67P-doublesided_TypeM (layer F.Cu) (tedit 61729690)
   (fp_text reference REF** (at 0 1) (layer F.Fab)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
@@ -111,8 +111,8 @@
   (pad 75 smd rect (at 9.25 -5.275) (size 0.3 1.55) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -10 -0.025) (size 1.1 1.1) (drill 1.1) (layers *.Cu))
   (pad "" np_thru_hole circle (at 10 -0.025) (size 1.6 1.6) (drill 1.6) (layers *.Cu))
-  (pad "" smd rect (at -10.35 -4.5) (size 1.2 2.75) (layers F.Cu F.Paste F.Mask))
-  (pad "" smd rect (at 10.35 -4.5) (size 1.2 2.75) (layers F.Cu F.Paste F.Mask))
+  (pad MP smd rect (at -10.35 -4.5) (size 1.2 2.75) (layers F.Cu F.Paste F.Mask))
+  (pad MP smd rect (at 10.35 -4.5) (size 1.2 2.75) (layers F.Cu F.Paste F.Mask))
   (model ../../../../../home/paulr/owncloud.home/Electronics/KiCadLibs/MyKiCadLibs.pretty/M.2_key_B_TE.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
