@@ -15,6 +15,19 @@ This board also breaks out B slot USB 2.0 signals, 3.3V and GND
 on a separate 4-pin 2mm pin header. It's mostly intended for you
 to solder wires to. Draw 3.3V from there at your own peril.
 
+There are resistors on the bottom for interrupting PCI-E&other control signals
+if any of them interfere with operation of your SSD:
+
+* 1 interrupts DAA/DSS
+* 2 interrupts DEVSLP
+* 3 interrupts PERST
+* 4 interrupts CLKREQ
+* 5 interrupts PEWAKE
+* 6 interrupts SUSCLK
+
+There are also traces with mask openings near the card edge that allow you
+to tap into any of the M.2 socket pins connected to the B+M pads. Use them wisely!
+
 USB header pinout is silkscreened on the board's bottom layer.
 This board is untested and there's no guarantees of fitness.
 
