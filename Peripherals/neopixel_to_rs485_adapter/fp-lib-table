@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name neopixel_to_rs485_adapter)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+)
