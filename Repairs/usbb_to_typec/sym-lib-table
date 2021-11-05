@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name arduino-micro-usb-mod-rescue)(type Legacy)(uri ${KIPRJMOD}/arduino-micro-usb-mod-rescue.lib)(options "")(descr ""))
+  (lib (name usbb_to_typec-rescue)(type Legacy)(uri ${KIPRJMOD}/usbb_to_typec-rescue.lib)(options "")(descr ""))
+)
