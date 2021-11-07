@@ -164,4 +164,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7350 38
 	1    7200 3850
 	-1   0    0    -1  
 $EndComp
+Text Notes 4950 2850 0    50   ~ 0
+this reminds me of that one picture with two girls
 $EndSCHEMATC

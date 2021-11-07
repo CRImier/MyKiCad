@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.25)
     (user_trace_width 0.35)
     (user_trace_width 0.4)
     (trace_clearance 0.2)
@@ -74,7 +74,7 @@
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
-      (excludeedgelayer false)
+      (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
@@ -493,7 +493,7 @@
   (segment (start 157.373599 104.602001) (end 157.0736 104.902) (width 0.25) (layer B.Cu) (net 10))
   (segment (start 156.843402 104.902) (end 157.0736 104.902) (width 0.25) (layer F.Cu) (net 10))
 
-  (zone (net 5) (net_name GNDS) (layer F.Cu) (tstamp 618535AB) (hatch edge 0.508)
+  (zone (net 5) (net_name GNDS) (layer F.Cu) (tstamp 618764D0) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 0.21))
@@ -622,7 +622,7 @@
       )
     )
   )
-  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 618535A8) (hatch edge 0.508)
+  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 618764CD) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 0.21))
