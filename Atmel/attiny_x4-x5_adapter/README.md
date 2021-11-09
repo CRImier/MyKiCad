@@ -1,6 +1,6 @@
 # ATTiny x4 - x5 adapter
 
-This is an adapter to fit an ATTinyx4 (i.e. ATTiny85) instead of ATTinyx5 (i.e. ATTiny85).
+This is an adapter to fit an ATTinyx4 (i.e. ATTiny84) instead of ATTinyx5 (i.e. ATTiny85).
 It solders as an LGA board.
 
 The current mapping seems to preserve the ISP pin mapping on the same pins.
