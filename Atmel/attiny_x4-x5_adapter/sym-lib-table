@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name attinyx5-verbose)(type Legacy)(uri ${KIPRJMOD}/attinyx5-verbose.lib)(options "")(descr ""))
+  (lib (name attinyx4-verbose)(type Legacy)(uri ${KIPRJMOD}/attinyx4-verbose.lib)(options "")(descr ""))
+)
