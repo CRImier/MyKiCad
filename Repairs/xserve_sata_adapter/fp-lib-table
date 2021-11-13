@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name xserve_sata_adapter)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+)
