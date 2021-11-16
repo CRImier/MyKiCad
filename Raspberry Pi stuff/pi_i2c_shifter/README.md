@@ -4,7 +4,9 @@ This board level-shifts the I2C header and the GPIO to 5V using a N-FET level sh
 It can be mounted to the Pi in two different orientation, so that the 5V I2C header can either stick
 outside of the Pi outline or stay inside of it for a compact build.
 
-Pin headers are arranged in a way that this board can be plugged into a breadboard from the I2C side
+Pin headers are arranged in a way that this board can be plugged into a breadboard from the I2C side.
+The pin headers also have staggered holes so that you can press-fit the board onto headers and
+have it work without soldering, again, from any side.
 Signal names are silkscreened on the bottom of the board.
 
 - PCB size: 21x14
