@@ -1,34 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L D_Schottky_Small D1
+L simple_fet_powerpath-rescue:D_Schottky_Small D1
 U 1 1 590E9A9A
 P 5000 4150
 F 0 "D1" H 4950 4230 50  0000 L CNN
@@ -54,7 +25,7 @@ F 3 "" V 5000 4150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R1
+L simple_fet_powerpath-rescue:R_Small R1
 U 1 1 590E9B01
 P 4650 4350
 F 0 "R1" V 4750 4350 50  0000 L CNN
@@ -65,7 +36,7 @@ F 3 "" H 4650 4350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W3
+L simple_fet_powerpath-rescue:TEST_1P W3
 U 1 1 590E9B46
 P 4550 4350
 F 0 "W3" V 4650 4550 50  0000 C CNN
@@ -76,7 +47,7 @@ F 3 "" H 4750 4350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W4
+L simple_fet_powerpath-rescue:TEST_1P W4
 U 1 1 590E9C5C
 P 5200 3850
 F 0 "W4" V 5300 4050 50  0000 C CNN
@@ -87,7 +58,7 @@ F 3 "" H 5400 3850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W2
+L simple_fet_powerpath-rescue:TEST_1P W2
 U 1 1 590E9CA1
 P 4550 4150
 F 0 "W2" V 4650 4350 50  0000 C CNN
@@ -98,7 +69,7 @@ F 3 "" H 4750 4150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W1
+L simple_fet_powerpath-rescue:TEST_1P W1
 U 1 1 590E9D0F
 P 4550 3850
 F 0 "W1" V 4650 4050 50  0000 C CNN
@@ -109,7 +80,7 @@ F 3 "" H 4750 3850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Q_PMOS_GSD Q1
+L simple_fet_powerpath-rescue:Q_PMOS_GSD Q1
 U 1 1 590E9D9C
 P 4800 3950
 F 0 "Q1" V 4700 4050 50  0000 R CNN
@@ -120,7 +91,7 @@ F 3 "" H 4800 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4550 4150 4900 4150
+	4550 4150 4800 4150
 Connection ~ 4800 4150
 Wire Wire Line
 	4800 4150 4800 4350
@@ -129,10 +100,14 @@ Wire Wire Line
 Wire Wire Line
 	4550 3850 4600 3850
 Wire Wire Line
-	5000 3850 5200 3850
+	5000 3850 5150 3850
 Wire Wire Line
 	5100 4150 5150 4150
 Wire Wire Line
 	5150 4150 5150 3850
 Connection ~ 5150 3850
+Wire Wire Line
+	4800 4150 4900 4150
+Wire Wire Line
+	5150 3850 5200 3850
 $EndSCHEMATC

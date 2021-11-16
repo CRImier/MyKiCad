@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# D_Schottky_Small
+# simple_fet_powerpath-rescue_D_Schottky_Small
 #
-DEF D_Schottky_Small D 0 10 N N 1 F N
+DEF simple_fet_powerpath-rescue_D_Schottky_Small D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_Schottky_Small" -280 -80 50 H V L CNN
+F1 "simple_fet_powerpath-rescue_D_Schottky_Small" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -25,11 +25,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_PMOS_GSD
+# simple_fet_powerpath-rescue_Q_PMOS_GSD
 #
-DEF Q_PMOS_GSD Q 0 0 Y N 1 F N
+DEF simple_fet_powerpath-rescue_Q_PMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "Q_PMOS_GSD" 650 -50 50 H V R CNN
+F1 "simple_fet_powerpath-rescue_Q_PMOS_GSD" 650 -50 50 H V R CNN
 F2 "" 200 100 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -51,11 +51,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Small
+# simple_fet_powerpath-rescue_R_Small
 #
-DEF R_Small R 0 10 N N 1 F N
+DEF simple_fet_powerpath-rescue_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "R_Small" 30 -40 50 H V L CNN
+F1 "simple_fet_powerpath-rescue_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -69,11 +69,11 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TEST_1P
+# simple_fet_powerpath-rescue_TEST_1P
 #
-DEF TEST_1P W 0 30 N N 1 F N
+DEF simple_fet_powerpath-rescue_TEST_1P W 0 30 N N 1 F N
 F0 "W" 0 270 50 H V C CNN
-F1 "TEST_1P" 0 200 50 H V C CNN
+F1 "simple_fet_powerpath-rescue_TEST_1P" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
