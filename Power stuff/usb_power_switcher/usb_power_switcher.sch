@@ -1,38 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:usb_power_switcher-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB_A J1
+L usb_power_switcher-rescue:USB_A J1
 U 1 1 5A876DAA
 P 3200 3450
 F 0 "J1" H 3000 3900 50  0000 L CNN
@@ -58,7 +25,7 @@ F 3 "" H 3350 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_A J3
+L usb_power_switcher-rescue:USB_A J3
 U 1 1 5A876E02
 P 4850 3450
 F 0 "J3" H 4650 3900 50  0000 L CNN
@@ -69,7 +36,7 @@ F 3 "" H 5000 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L usb_power_switcher-rescue:GND #PWR01
 U 1 1 5A876E3C
 P 3200 3850
 F 0 "#PWR01" H 3200 3600 50  0001 C CNN
@@ -80,7 +47,7 @@ F 3 "" H 3200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L usb_power_switcher-rescue:GND #PWR02
 U 1 1 5A876E54
 P 4850 3850
 F 0 "#PWR02" H 4850 3600 50  0001 C CNN
@@ -91,7 +58,7 @@ F 3 "" H 4850 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR03
+L usb_power_switcher-rescue:Earth #PWR03
 U 1 1 5A876E85
 P 3100 3850
 F 0 "#PWR03" H 3100 3600 50  0001 C CNN
@@ -102,7 +69,7 @@ F 3 "" H 3100 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR04
+L usb_power_switcher-rescue:Earth #PWR04
 U 1 1 5A876E9D
 P 4750 3850
 F 0 "#PWR04" H 4750 3600 50  0001 C CNN
@@ -121,7 +88,7 @@ D-
 Text GLabel 5550 3550 2    60   Input ~ 0
 D-
 $Comp
-L +5V #PWR05
+L usb_power_switcher-rescue:+5V #PWR05
 U 1 1 5A876ED4
 P 3550 3200
 F 0 "#PWR05" H 3550 3050 50  0001 C CNN
@@ -132,7 +99,7 @@ F 3 "" H 3550 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5VD #PWR06
+L usb_power_switcher-rescue:+5VD #PWR06
 U 1 1 5A876EEC
 P 5200 3200
 F 0 "#PWR06" H 5200 3050 50  0001 C CNN
@@ -143,7 +110,7 @@ F 3 "" H 5200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L usb_power_switcher-rescue:R_Small R2
 U 1 1 5A876F56
 P 3350 4650
 F 0 "R2" H 3380 4670 50  0000 L CNN
@@ -154,7 +121,7 @@ F 3 "" H 3350 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J2
+L usb_power_switcher-rescue:Conn_01x04 J2
 U 1 1 5A876FD8
 P 4150 3050
 F 0 "J2" V 4350 3000 50  0000 C CNN
@@ -165,7 +132,7 @@ F 3 "" H 4150 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5VD #PWR07
+L usb_power_switcher-rescue:+5VD #PWR07
 U 1 1 5A877023
 P 4500 3200
 F 0 "#PWR07" H 4500 3050 50  0001 C CNN
@@ -176,7 +143,7 @@ F 3 "" H 4500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR08
+L usb_power_switcher-rescue:+5V #PWR08
 U 1 1 5A87703A
 P 3900 3200
 F 0 "#PWR08" H 3900 3050 50  0001 C CNN
@@ -187,7 +154,7 @@ F 3 "" H 3900 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L usb_power_switcher-rescue:GND #PWR09
 U 1 1 5A8770B4
 P 4250 3300
 F 0 "#PWR09" H 4250 3050 50  0001 C CNN
@@ -202,7 +169,7 @@ CTRL
 Text GLabel 3200 4800 0    60   Input ~ 0
 CTRL
 $Comp
-L R_Small R3
+L usb_power_switcher-rescue:R_Small R3
 U 1 1 5A87717B
 P 3350 4950
 F 0 "R3" H 3380 4970 50  0000 L CNN
@@ -213,7 +180,7 @@ F 3 "" H 3350 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L usb_power_switcher-rescue:GND #PWR010
 U 1 1 5A8771D6
 P 3350 5050
 F 0 "#PWR010" H 3350 4800 50  0001 C CNN
@@ -224,7 +191,7 @@ F 3 "" H 3350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR011
+L usb_power_switcher-rescue:+5V #PWR011
 U 1 1 5A8771F5
 P 3350 4550
 F 0 "#PWR011" H 3350 4400 50  0001 C CNN
@@ -235,7 +202,7 @@ F 3 "" H 3350 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J4
+L usb_power_switcher-rescue:GS2 J4
 U 1 1 5A87731C
 P 5350 3450
 F 0 "J4" V 5300 3600 50  0000 C CNN
@@ -246,7 +213,7 @@ F 3 "" H 5350 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS2 J5
+L usb_power_switcher-rescue:GS2 J5
 U 1 1 5A877409
 P 5350 3550
 F 0 "J5" V 5300 3700 50  0000 C CNN
@@ -257,7 +224,7 @@ F 3 "" H 5350 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R1
+L usb_power_switcher-rescue:R_Small R1
 U 1 1 5A877708
 P 3500 4800
 F 0 "R1" V 3500 4750 50  0000 L CNN
@@ -268,7 +235,7 @@ F 3 "" H 3500 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR012
+L usb_power_switcher-rescue:GND #PWR012
 U 1 1 5A877A5A
 P 3900 5000
 F 0 "#PWR012" H 3900 4750 50  0001 C CNN
@@ -279,7 +246,7 @@ F 3 "" H 3900 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_GSD Q2
+L usb_power_switcher-rescue:Q_PMOS_GSD Q2
 U 1 1 5A877AC8
 P 4400 4700
 F 0 "Q2" H 4600 4750 50  0000 L CNN
@@ -290,7 +257,7 @@ F 3 "" H 4400 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5VD #PWR013
+L usb_power_switcher-rescue:+5VD #PWR013
 U 1 1 5A877B9D
 P 4500 4500
 F 0 "#PWR013" H 4500 4350 50  0001 C CNN
@@ -301,7 +268,7 @@ F 3 "" H 4500 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR014
+L usb_power_switcher-rescue:+5V #PWR014
 U 1 1 5A877BC6
 P 4500 5000
 F 0 "#PWR014" H 4500 4850 50  0001 C CNN
@@ -312,7 +279,7 @@ F 3 "" H 4500 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R4
+L usb_power_switcher-rescue:R_Small R4
 U 1 1 5A877CB3
 P 4150 4800
 F 0 "R4" H 4180 4820 50  0000 L CNN
@@ -323,7 +290,7 @@ F 3 "" H 4150 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L usb_power_switcher-rescue:LED D1
 U 1 1 5A878320
 P 2750 3500
 F 0 "D1" H 2750 3600 50  0000 C CNN
@@ -334,7 +301,7 @@ F 3 "" H 2750 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR015
+L usb_power_switcher-rescue:+5V #PWR015
 U 1 1 5A8783A1
 P 2750 3350
 F 0 "#PWR015" H 2750 3200 50  0001 C CNN
@@ -345,7 +312,7 @@ F 3 "" H 2750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L usb_power_switcher-rescue:R_Small R5
 U 1 1 5A8783FF
 P 2750 3750
 F 0 "R5" V 2650 3700 50  0000 L CNN
@@ -356,7 +323,7 @@ F 3 "" H 2750 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR016
+L usb_power_switcher-rescue:GND #PWR016
 U 1 1 5A87844C
 P 2750 3850
 F 0 "#PWR016" H 2750 3600 50  0001 C CNN
@@ -367,7 +334,7 @@ F 3 "" H 2750 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L usb_power_switcher-rescue:LED D2
 U 1 1 5A8784DE
 P 6000 3400
 F 0 "D2" H 6000 3500 50  0000 C CNN
@@ -378,7 +345,7 @@ F 3 "" H 6000 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R6
+L usb_power_switcher-rescue:R_Small R6
 U 1 1 5A8784EA
 P 6000 3650
 F 0 "R6" V 5900 3600 50  0000 L CNN
@@ -389,7 +356,7 @@ F 3 "" H 6000 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR017
+L usb_power_switcher-rescue:GND #PWR017
 U 1 1 5A8784F0
 P 6000 3750
 F 0 "#PWR017" H 6000 3500 50  0001 C CNN
@@ -425,8 +392,6 @@ Wire Wire Line
 	5550 3450 5150 3450
 Connection ~ 5150 3450
 Connection ~ 5150 3550
-Connection ~ 5550 3550
-Connection ~ 5550 3450
 Wire Wire Line
 	4100 3400 4150 3400
 Wire Wire Line
@@ -438,9 +403,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 4600 3900 4550
 Wire Wire Line
-	3900 4550 4200 4550
+	3900 4550 4150 4550
 Wire Wire Line
-	4500 4900 4500 5000
+	4500 4900 4500 4950
 Wire Wire Line
 	4500 4950 4150 4950
 Connection ~ 4500 4950
@@ -450,7 +415,7 @@ Wire Wire Line
 	4150 4700 4150 4550
 Connection ~ 4150 4550
 $Comp
-L +5VD #PWR018
+L usb_power_switcher-rescue:+5VD #PWR018
 U 1 1 5A878526
 P 6000 3250
 F 0 "#PWR018" H 6000 3100 50  0001 C CNN
@@ -461,7 +426,7 @@ F 3 "" H 6000 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L usb_power_switcher-rescue:LED D3
 U 1 1 5A878A72
 P 2750 5000
 F 0 "D3" H 2750 5100 50  0000 C CNN
@@ -472,7 +437,7 @@ F 3 "" H 2750 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R7
+L usb_power_switcher-rescue:R_Small R7
 U 1 1 5A878A78
 P 2750 5250
 F 0 "R7" V 2650 5200 50  0000 L CNN
@@ -483,7 +448,7 @@ F 3 "" H 2750 5250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR019
+L usb_power_switcher-rescue:GND #PWR019
 U 1 1 5A878A7E
 P 2750 5350
 F 0 "#PWR019" H 2750 5100 50  0001 C CNN
@@ -500,7 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 4800 2750 4850
 $Comp
-L USB_OTG J6
+L usb_power_switcher-rescue:USB_OTG J6
 U 1 1 5AC0D2EF
 P 3200 2200
 F 0 "J6" H 3000 2650 50  0000 L CNN
@@ -515,7 +480,7 @@ D+
 Text GLabel 3500 2300 2    60   Input ~ 0
 D-
 $Comp
-L +5V #PWR020
+L usb_power_switcher-rescue:+5V #PWR020
 U 1 1 5AC0D3EE
 P 3550 1950
 F 0 "#PWR020" H 3550 1800 50  0001 C CNN
@@ -530,7 +495,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2000 3550 1950
 $Comp
-L GND #PWR021
+L usb_power_switcher-rescue:GND #PWR021
 U 1 1 5AC0D513
 P 3200 2600
 F 0 "#PWR021" H 3200 2350 50  0001 C CNN
@@ -541,7 +506,7 @@ F 3 "" H 3200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR022
+L usb_power_switcher-rescue:Earth #PWR022
 U 1 1 5AC0D554
 P 3100 2600
 F 0 "#PWR022" H 3100 2350 50  0001 C CNN
@@ -553,12 +518,12 @@ F 3 "" H 3100 2600 50  0001 C CNN
 $EndComp
 NoConn ~ 3500 2400
 Wire Wire Line
-	3200 4800 3400 4800
+	3200 4800 3350 4800
 Wire Wire Line
-	3350 4750 3350 4850
+	3350 4750 3350 4800
 Connection ~ 3350 4800
 $Comp
-L Q_NPN_BEC Q1
+L usb_power_switcher-rescue:Q_NPN_BEC Q1
 U 1 1 5BCD062D
 P 3800 4800
 F 0 "Q1" H 3950 5000 50  0000 L CNN
@@ -568,4 +533,12 @@ F 3 "" H 3800 4800 50  0001 C CNN
 	1    3800 4800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4500 4950 4500 5000
+Wire Wire Line
+	4150 4550 4200 4550
+Wire Wire Line
+	3350 4800 3400 4800
+Wire Wire Line
+	3350 4800 3350 4850
 $EndSCHEMATC

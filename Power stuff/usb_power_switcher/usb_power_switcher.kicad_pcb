@@ -6,7 +6,7 @@
     (tracks 116)
     (zones 0)
     (modules 18)
-    (nets 13)
+    (nets 14)
   )
 
   (page A4)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
     (user_trace_width 0.7)
@@ -110,6 +110,7 @@
   (net 10 "Net-(D2-Pad1)")
   (net 11 "Net-(D3-Pad1)")
   (net 12 "Net-(Q1-Pad3)")
+  (net 13 "Net-(J6-Pad4)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -128,6 +129,7 @@
     (add_net "Net-(D1-Pad1)")
     (add_net "Net-(D2-Pad1)")
     (add_net "Net-(D3-Pad1)")
+    (add_net "Net-(J6-Pad4)")
     (add_net "Net-(Q1-Pad1)")
     (add_net "Net-(Q1-Pad3)")
   )
@@ -724,7 +726,8 @@
       (net 3 D-))
     (pad 3 smd rect (at 0 0 90) (size 0.4 1.5) (layers F.Cu F.Paste F.Mask)
       (net 2 D+))
-    (pad 4 smd rect (at -0.625 0 90) (size 0.4 1.5) (layers F.Cu F.Paste F.Mask))
+    (pad 4 smd rect (at -0.625 0 90) (size 0.4 1.5) (layers F.Cu F.Paste F.Mask)
+      (net 13 "Net-(J6-Pad4)"))
     (pad 5 smd rect (at -1.25 0 90) (size 0.4 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (pad 6 smd rect (at -1.1 -2.5 90) (size 1.8 1.8) (layers F.Cu F.Paste F.Mask)

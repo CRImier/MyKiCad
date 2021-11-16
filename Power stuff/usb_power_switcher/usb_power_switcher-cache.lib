@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +5V
+# usb_power_switcher-rescue_+5V
 #
-DEF +5V #PWR 0 0 Y Y 1 F P
+DEF usb_power_switcher-rescue_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5V" 0 140 50 H V C CNN
+F1 "usb_power_switcher-rescue_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +5VD
+# usb_power_switcher-rescue_+5VD
 #
-DEF +5VD #PWR 0 0 Y Y 1 F P
+DEF usb_power_switcher-rescue_+5VD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5VD" 0 140 50 H V C CNN
+F1 "usb_power_switcher-rescue_+5VD" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5VD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Conn_01x04
+# usb_power_switcher-rescue_Conn_01x04
 #
-DEF Conn_01x04 J 0 40 Y N 1 F N
+DEF usb_power_switcher-rescue_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Conn_01x04" 0 -300 50 H V C CNN
+F1 "usb_power_switcher-rescue_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Earth
+# usb_power_switcher-rescue_Earth
 #
-DEF ~Earth #PWR 0 0 Y Y 1 F P
+DEF usb_power_switcher-rescue_Earth #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Earth" 0 -150 50 H I C CNN
+F1 "usb_power_switcher-rescue_Earth" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -75,11 +75,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GND
+# usb_power_switcher-rescue_GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF usb_power_switcher-rescue_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "usb_power_switcher-rescue_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -88,11 +88,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GS2
+# usb_power_switcher-rescue_GS2
 #
-DEF GS2 J 0 40 N N 1 F N
+DEF usb_power_switcher-rescue_GS2 J 0 40 N N 1 F N
 F0 "J" 100 150 50 H V C CNN
-F1 "GS2" 100 -149 50 H V C CNN
+F1 "usb_power_switcher-rescue_GS2" 100 -149 50 H V C CNN
 F2 "Connectors:GS2" 74 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -106,11 +106,11 @@ X G2 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED
+# usb_power_switcher-rescue_LED
 #
-DEF LED D 0 40 Y N 1 F N
+DEF usb_power_switcher-rescue_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED" 0 -100 50 H V C CNN
+F1 "usb_power_switcher-rescue_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -127,11 +127,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_NPN_BEC
+# usb_power_switcher-rescue_Q_NPN_BEC
 #
-DEF Q_NPN_BEC Q 0 0 Y N 1 F N
+DEF usb_power_switcher-rescue_Q_NPN_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NPN_BEC" 200 -50 50 H V L CNN
+F1 "usb_power_switcher-rescue_Q_NPN_BEC" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -146,11 +146,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_PMOS_GSD
+# usb_power_switcher-rescue_Q_PMOS_GSD
 #
-DEF Q_PMOS_GSD Q 0 0 Y N 1 F N
+DEF usb_power_switcher-rescue_Q_PMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_PMOS_GSD" 200 -50 50 H V L CNN
+F1 "usb_power_switcher-rescue_Q_PMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -178,11 +178,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Small
+# usb_power_switcher-rescue_R_Small
 #
-DEF R_Small R 0 10 N N 1 F N
+DEF usb_power_switcher-rescue_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "R_Small" 30 -40 50 H V L CNN
+F1 "usb_power_switcher-rescue_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -195,11 +195,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_A
+# usb_power_switcher-rescue_USB_A
 #
-DEF USB_A J 0 40 Y Y 1 F N
+DEF usb_power_switcher-rescue_USB_A J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_A" -200 350 50 H V L CNN
+F1 "usb_power_switcher-rescue_USB_A" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_OTG
+# usb_power_switcher-rescue_USB_OTG
 #
-DEF USB_OTG J 0 40 Y Y 1 F N
+DEF usb_power_switcher-rescue_USB_OTG J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_OTG" -200 350 50 H V L CNN
+F1 "usb_power_switcher-rescue_USB_OTG" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
