@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Q_NPN_BEC
+#
+DEF Device_Q_NPN_BEC Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Device_Q_NPN_BEC" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
