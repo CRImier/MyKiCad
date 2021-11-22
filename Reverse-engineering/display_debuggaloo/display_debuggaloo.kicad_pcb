@@ -27,14 +27,14 @@
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user)
+    (46 B.CrtYd user hide)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -60,7 +60,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 122.555 107.315)
+    (aux_axis_origin 122.555 76.835)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
