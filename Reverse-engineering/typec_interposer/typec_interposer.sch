@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 617469A4
+P 2100 3300
+F 0 "J1" H 2207 4167 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2207 4076 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2250 3300 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 3300 50  0001 C CNN
+	1    2100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 6174773A
+P 3750 3300
+F 0 "J2" H 3320 3239 50  0000 R CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3320 3148 50  0000 R CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 3900 3300 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3900 3300 50  0001 C CNN
+	1    3750 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2700 3150 2700
+Wire Wire Line
+	2700 3200 2700 3250
+Wire Wire Line
+	3150 3200 3150 3250
+Wire Wire Line
+	3150 3400 3150 3450
+Wire Wire Line
+	2700 3400 2700 3450
+$Comp
+L Device:R_Small R1
+U 1 1 6174C88D
+P 2800 2900
+F 0 "R1" V 2750 3050 50  0000 C CNN
+F 1 "0R" V 2800 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 2900 50  0001 C CNN
+F 3 "~" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 6174E170
+P 2800 3000
+F 0 "R2" V 2750 3150 50  0000 C CNN
+F 1 "0R" V 2800 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 3000 50  0001 C CNN
+F 3 "~" H 2800 3000 50  0001 C CNN
+	1    2800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 6174E3CF
+P 2800 3900
+F 0 "R6" V 2750 4050 50  0000 C CNN
+F 1 "0R" V 2800 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 3900 50  0001 C CNN
+F 3 "~" H 2800 3900 50  0001 C CNN
+	1    2800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 6174E712
+P 2800 3800
+F 0 "R5" V 2750 3950 50  0000 C CNN
+F 1 "0R" V 2800 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 3800 50  0001 C CNN
+F 3 "~" H 2800 3800 50  0001 C CNN
+	1    2800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 6174E9C8
+P 2800 3450
+F 0 "R4" V 2750 3600 50  0000 C CNN
+F 1 "0R" V 2800 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 3450 50  0001 C CNN
+F 3 "~" H 2800 3450 50  0001 C CNN
+	1    2800 3450
+	0    1    1    0   
+$EndComp
+Connection ~ 2700 3450
+Wire Wire Line
+	2700 3450 2700 3500
+$Comp
+L Device:R_Small R3
+U 1 1 6174EC92
+P 2800 3250
+F 0 "R3" V 2750 3400 50  0000 C CNN
+F 1 "0R" V 2800 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 3250 50  0001 C CNN
+F 3 "~" H 2800 3250 50  0001 C CNN
+	1    2800 3250
+	0    1    1    0   
+$EndComp
+Connection ~ 2700 3250
+Wire Wire Line
+	2700 3250 2700 3300
+Wire Wire Line
+	2900 3000 3050 3000
+Wire Wire Line
+	3050 3000 3050 2900
+Wire Wire Line
+	3050 2900 3150 2900
+Wire Wire Line
+	3150 3000 3100 3000
+Wire Wire Line
+	3100 3000 3100 2950
+Wire Wire Line
+	3100 2950 3000 2950
+Wire Wire Line
+	3000 2950 3000 2900
+Wire Wire Line
+	3000 2900 2900 2900
+Wire Wire Line
+	2900 3250 3150 3250
+Connection ~ 3150 3250
+Wire Wire Line
+	3150 3250 3150 3300
+Wire Wire Line
+	3150 3450 2900 3450
+Connection ~ 3150 3450
+Wire Wire Line
+	3150 3450 3150 3500
+Wire Wire Line
+	2900 3800 3000 3800
+Wire Wire Line
+	3000 3800 3000 3850
+Wire Wire Line
+	3000 3850 3100 3850
+Wire Wire Line
+	3100 3850 3100 3900
+Wire Wire Line
+	3100 3900 3150 3900
+Wire Wire Line
+	3150 3800 3050 3800
+Wire Wire Line
+	3050 3800 3050 3900
+Wire Wire Line
+	3050 3900 2900 3900
+Text Label 3100 3900 0    50   ~ 0
+SBU2
+Text Label 3100 3800 0    50   ~ 0
+SBU1
+Text Label 3000 3450 0    50   ~ 0
+D+
+Text Label 3000 3250 0    50   ~ 0
+D-
+Text Label 2900 2700 0    50   ~ 0
+VBUS
+Text Label 3100 2900 0    50   ~ 0
+CC1
+Text Label 3100 3000 0    50   ~ 0
+CC2
+NoConn ~ 2900 3100
+$Comp
+L power:GND #PWR0101
+U 1 1 6175E6BD
+P 2100 4200
+F 0 "#PWR0101" H 2100 3950 50  0001 C CNN
+F 1 "GND" H 2105 4027 50  0000 C CNN
+F 2 "" H 2100 4200 50  0001 C CNN
+F 3 "" H 2100 4200 50  0001 C CNN
+	1    2100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6175EA59
+P 3750 4200
+F 0 "#PWR0102" H 3750 3950 50  0001 C CNN
+F 1 "GND" H 3755 4027 50  0000 C CNN
+F 2 "" H 3750 4200 50  0001 C CNN
+F 3 "" H 3750 4200 50  0001 C CNN
+	1    3750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR0103
+U 1 1 6175F0D1
+P 1800 4200
+F 0 "#PWR0103" H 1800 3950 50  0001 C CNN
+F 1 "GNDS" H 1805 4027 50  0000 C CNN
+F 2 "" H 1800 4200 50  0001 C CNN
+F 3 "" H 1800 4200 50  0001 C CNN
+	1    1800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR0104
+U 1 1 6175F44F
+P 4050 4200
+F 0 "#PWR0104" H 4050 3950 50  0001 C CNN
+F 1 "GNDS" H 4055 4027 50  0000 C CNN
+F 2 "" H 4050 4200 50  0001 C CNN
+F 3 "" H 4050 4200 50  0001 C CNN
+	1    4050 4200
+	1    0    0    -1  
+$EndComp
+Text Label 5000 3200 0    50   ~ 0
+D-
+Text Label 5000 3100 0    50   ~ 0
+D+
+Text Label 5800 3200 2    50   ~ 0
+CC1
+$Comp
+L power:GND #PWR0105
+U 1 1 61889045
+P 6850 3450
+F 0 "#PWR0105" H 6850 3200 50  0001 C CNN
+F 1 "GND" V 6850 3250 50  0000 C CNN
+F 2 "" H 6850 3450 50  0001 C CNN
+F 3 "" H 6850 3450 50  0001 C CNN
+	1    6850 3450
+	0    1    1    0   
+$EndComp
+Text Label 6700 3350 0    50   ~ 0
+VBUS
+Text Label 5800 3100 2    50   ~ 0
+CC2
+Wire Wire Line
+	5150 3100 5000 3100
+Wire Wire Line
+	5650 3100 5800 3100
+Wire Wire Line
+	5800 3200 5650 3200
+Wire Wire Line
+	5150 3200 5000 3200
+Wire Wire Line
+	6850 3350 6700 3350
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J4
+U 1 1 61890DC6
+P 5350 3100
+F 0 "J4" H 5400 3317 50  0000 C CNN
+F 1 "TAP" H 5400 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5350 3100 50  0001 C CNN
+F 3 "~" H 5350 3100 50  0001 C CNN
+	1    5350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 6189BD1E
+P 7050 3350
+F 0 "J3" H 7130 3342 50  0000 L CNN
+F 1 "PWR" H 7130 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7050 3350 50  0001 C CNN
+F 3 "~" H 7050 3350 50  0001 C CNN
+	1    7050 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
