@@ -7,6 +7,10 @@ I2C pinout is heavily influenced by the Raspberry Pi pinout, and the board expos
 
 Signal names are silkscreened on the board's bottom layer.
 
+Changes in v2:
+
+- Fixed issue where +VSW and +5V were swapped places, causing SDA to be pulled up to +5V no matter the output voltage
+
 - PCB size: 30.1*20.8mm
 - Layer count: 2
 - Recommended thickness: 1.6mm (HDMI side plug fits well on 1.6mm boards)
