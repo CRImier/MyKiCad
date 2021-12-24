@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name ch341)(type Legacy)(uri ${KIPRJMOD}/ch341.lib)(options "")(descr ""))
   (lib (name LTH7R)(type Legacy)(uri ${KIPRJMOD}/LTH7R.lib)(options "")(descr ""))
+  (lib (name proto_space)(type Legacy)(uri ${KIPRJMOD}/proto_space.lib)(options "")(descr ""))
+  (lib (name esp32_physlayout)(type Legacy)(uri ${KIPRJMOD}/esp32_physlayout.lib)(options "")(descr ""))
 )
