@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name esp12_ss_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/esp12_ss_breakout-rescue.lib)(options "")(descr ""))
+)
