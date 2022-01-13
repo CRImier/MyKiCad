@@ -269,6 +269,29 @@ X MountPin MP 0 -300 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_TestPoint
 #
 DEF Connector_TestPoint TP 0 30 N N 1 F N
@@ -612,6 +635,21 @@ X PROG 5 400 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Mechanical_Fiducial
+#
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
 # Regulator_Linear_AP1117-33
 #
 DEF Regulator_Linear_AP1117-33 U 0 10 Y Y 1 F N
@@ -878,7 +916,7 @@ ENDDEF
 # proto_space_PROTO_SPACE
 #
 DEF proto_space_PROTO_SPACE P 0 40 Y Y 1 F N
-F0 "P" 400 400 50 H V C CNN
+F0 "P" 650 400 50 H V C CNN
 F1 "proto_space_PROTO_SPACE" 700 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -916,10 +954,10 @@ C 550 -50 50 1 1 0 N
 C 550 100 50 1 1 0 N
 C 550 250 50 1 1 0 F
 S -600 350 650 -300 0 1 0 f
-X a a -350 450 100 D 50 79 1 1 I
-X b b -200 450 100 D 50 79 1 1 I
-X c c -50 450 100 D 50 79 1 1 I
-X d d 100 450 100 D 50 79 1 1 I
+X a a -500 450 100 D 50 79 1 1 I
+X b b -350 450 100 D 50 79 1 1 I
+X c c -200 450 100 D 50 79 1 1 I
+X d d -50 450 100 D 50 79 1 1 I
 X d0 d0 -500 -400 100 U 50 79 1 1 I
 X d1 d1 -350 -400 100 U 50 79 1 1 I
 X d2 d2 -200 -400 100 U 50 79 1 1 I
@@ -928,7 +966,9 @@ X d4 d4 100 -400 100 U 50 79 1 1 I
 X d5 d5 250 -400 100 U 50 79 1 1 I
 X d6 d6 400 -400 100 U 50 79 1 1 I
 X d7 d7 550 -400 100 U 50 79 1 1 I
-X e e 250 450 100 D 50 79 1 1 I
+X e e 100 450 100 D 50 79 1 1 I
+X f f 250 450 100 D 79 79 1 1 I
+X g g 400 450 100 D 79 79 1 1 I
 ENDDRAW
 ENDDEF
 #
