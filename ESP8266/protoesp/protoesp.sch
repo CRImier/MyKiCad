@@ -3480,45 +3480,45 @@ E_SCL
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 61E5ADDE
-P 2700 5050
-F 0 "FID1" H 2785 5096 50  0000 L CNN
-F 1 "Fiducial" H 2785 5005 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2700 5050 50  0001 C CNN
-F 3 "~" H 2700 5050 50  0001 C CNN
-	1    2700 5050
+P 2500 5050
+F 0 "FID1" H 2585 5096 50  0000 L CNN
+F 1 "Fiducial" H 2585 5005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2500 5050 50  0001 C CNN
+F 3 "~" H 2500 5050 50  0001 C CNN
+	1    2500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 61E5CD16
-P 2700 5300
-F 0 "FID2" H 2785 5346 50  0000 L CNN
-F 1 "Fiducial" H 2785 5255 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2700 5300 50  0001 C CNN
-F 3 "~" H 2700 5300 50  0001 C CNN
-	1    2700 5300
+P 2500 5300
+F 0 "FID2" H 2585 5346 50  0000 L CNN
+F 1 "Fiducial" H 2585 5255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2500 5300 50  0001 C CNN
+F 3 "~" H 2500 5300 50  0001 C CNN
+	1    2500 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 61E5CE93
-P 3250 5050
-F 0 "FID3" H 3335 5096 50  0000 L CNN
-F 1 "Fiducial" H 3335 5005 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3250 5050 50  0001 C CNN
-F 3 "~" H 3250 5050 50  0001 C CNN
-	1    3250 5050
+P 3000 5050
+F 0 "FID3" H 3085 5096 50  0000 L CNN
+F 1 "Fiducial" H 3085 5005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3000 5050 50  0001 C CNN
+F 3 "~" H 3000 5050 50  0001 C CNN
+	1    3000 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 61E5D16D
-P 3250 5300
-F 0 "FID4" H 3335 5346 50  0000 L CNN
-F 1 "Fiducial" H 3335 5255 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3250 5300 50  0001 C CNN
-F 3 "~" H 3250 5300 50  0001 C CNN
-	1    3250 5300
+P 3000 5300
+F 0 "FID4" H 3085 5346 50  0000 L CNN
+F 1 "Fiducial" H 3085 5255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3000 5300 50  0001 C CNN
+F 3 "~" H 3000 5300 50  0001 C CNN
+	1    3000 5300
 	1    0    0    -1  
 $EndComp
 Text Label 800  4200 0    50   ~ 0
@@ -3526,10 +3526,10 @@ DRV+
 Text Label 800  4500 0    50   ~ 0
 DRV-
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 61E69980
 P 600 5050
-F 0 "J?" H 518 5267 50  0000 C CNN
+F 0 "J3" H 518 5267 50  0000 C CNN
 F 1 "DRV" H 518 5176 50  0000 C CNN
 F 2 "" H 600 5050 50  0001 C CNN
 F 3 "~" H 600 5050 50  0001 C CNN
@@ -3540,4 +3540,48 @@ Text GLabel 800  5050 2    50   Input ~ 0
 DRV+
 Text GLabel 800  5150 2    50   Input ~ 0
 DRV-
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61EBE968
+P 3600 4800
+F 0 "H1" H 3700 4846 50  0000 L CNN
+F 1 "MountingHole" H 3700 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 4800 50  0001 C CNN
+F 3 "~" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61EC04C0
+P 3600 5000
+F 0 "H2" H 3700 5046 50  0000 L CNN
+F 1 "MountingHole" H 3700 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 5000 50  0001 C CNN
+F 3 "~" H 3600 5000 50  0001 C CNN
+	1    3600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61EC0837
+P 3600 5200
+F 0 "H3" H 3700 5246 50  0000 L CNN
+F 1 "MountingHole" H 3700 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 5200 50  0001 C CNN
+F 3 "~" H 3600 5200 50  0001 C CNN
+	1    3600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61EC0B3E
+P 3600 5400
+F 0 "H4" H 3700 5446 50  0000 L CNN
+F 1 "MountingHole" H 3700 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 5400 50  0001 C CNN
+F 3 "~" H 3600 5400 50  0001 C CNN
+	1    3600 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
