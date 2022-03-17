@@ -20,7 +20,6 @@ in the schematic.
 
 
 Signal names are silkscreened on the board's bottom layer.
-This board is untested and there's no guarantees of fitness.
 
 - PCB size: 36.5x15.5mm
 - Layer count: 2
