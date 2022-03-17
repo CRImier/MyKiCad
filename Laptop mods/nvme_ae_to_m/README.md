@@ -28,7 +28,6 @@ There are also traces with mask openings near the card edge that allow you
 to tap into any of the M.2 socket pins connected to the A+E pads. Use them wisely!
 
 USB header pinout is silkscreened on the board's bottom layer.
-This board is untested and there's no guarantees of fitness.
 
 - PCB size: 22*16,42
 - Layer count: 2
