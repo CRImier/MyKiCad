@@ -7,8 +7,8 @@ TARGET=releases/$VERSION
 mkdir -p $TARGET
 rm ./$TARGET/* || true # dangereux
 echo "Checklist:"
-# Source files - has everything else excluding past releases, just in case
-zip -r $TARGET/"$PRJ"_source_$VERSION.zip . -x releases/\*
+# Source files - has everything else excluding past releases and STEP, just in case
+zip -r $TARGET/"$PRJ"_source_$VERSION.zip . -x releases/\* -x protoesp.step
 # Gerber files
 echo "1) Gerbers"
 rm gerbers_$VERSION.zip || true
