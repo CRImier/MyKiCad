@@ -20,8 +20,11 @@ in the schematic.
 
 
 Signal names are silkscreened on the board's bottom layer.
-This board is untested and there's no guarantees of fitness.
 
 - PCB size: 36.5x15.5mm
 - Layer count: 2
 - Recommended thickness: thin (so that it fits inside the laptop well)
+
+This board is available on Tindie!
+
+[![tindie badge](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png)](https://www.tindie.com/products/25400/?ref=offsite_badges&utm_source=sellers_CRImier&utm_medium=badges&utm_campaign=badge_small)

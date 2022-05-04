@@ -60,3 +60,7 @@ This board is untested and there's no guarantees of fitness.
 - PCB size: 22x80mm
 - Layer count: 2
 - Recommended thickness: 0.8mm (it's an M.2 card, it has to be 0.8mm)
+
+If you need this specific board, contact me - I don't sell it yet because it's untested. A less cursed (and actually tested) variation of this board is available on Tindie! 
+
+[![tindie badge for the link](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png)](https://www.tindie.com/stores/crimier/?ref=offsite_badges&utm_source=sellers_CRImier&utm_medium=badges&utm_campaign=badge_small)
