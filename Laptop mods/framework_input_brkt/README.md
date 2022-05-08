@@ -8,6 +8,8 @@ Amphenol 10156000-051100LF (mobo-side) and Amphenol 10156001-051100LF (FPC-side)
 connectors.
 
 These footprints and symbols are untested and there's no guarantees of fitness.
+UPD: there seems to be mismatch between the stated connector and on-mobo connector,
+[issue tracked here.](https://github.com/FrameworkComputer/Mainboard/issues/6)
 
 Mobo-side connectors are useful for i.e. building a Framework keyboard into an external keyboard.
 
