@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name framework_input_brkt)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+)
