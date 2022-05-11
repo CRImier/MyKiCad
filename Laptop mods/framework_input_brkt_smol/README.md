@@ -5,7 +5,7 @@ a USB port with 5V power, keyboard backlight, and fingerprint LED connections.
 It is designed to fit inside the outline of the input connector FPC plug,
 within the motherboard outline, so that it can easily be added to existing designs.
 
-Markings on the PCB: "FmW input brkt" (shortened because the board has to be very small)
+Markings on the PCB: "FrmW input brkt" (shortened because the board has to be very small)
 
 Connector used: Amphenol 10156001-051100LF
 

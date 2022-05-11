@@ -194,7 +194,7 @@ Text Label 8250 3150 2    50   ~ 0
 FPR_LED_W
 Text Label 8250 3050 2    50   ~ 0
 FPR_LED_G
-Text Label 8250 2950 2    50   ~ 0
+Text Label 8050 2950 2    50   ~ 0
 FPR_LED_COM_5V
 $Comp
 L Device:R_Small R2
@@ -274,4 +274,15 @@ Wire Wire Line
 Connection ~ 8150 4150
 Wire Wire Line
 	8150 4150 8200 4150
+$Comp
+L Device:R_Small R3
+U 1 1 627BC9BD
+P 8150 2950
+F 0 "R3" V 8150 2950 50  0000 C CNN
+F 1 "560R" V 8200 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8150 2950 50  0001 C CNN
+F 3 "~" H 8150 2950 50  0001 C CNN
+	1    8150 2950
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
