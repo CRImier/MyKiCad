@@ -8,7 +8,9 @@ or prototyping alternate motherboards for the laptop chassis.
 
 The USB-C connector is detachable from the board, so that you can easier integrate
 this keyboard into all kinds of projects of yours.
-The board also exposes the fingerprint sensor using an optional SL2.1 USB hub.
+The board also exposes the fingerprint sensor using an optional SL2.1 USB hub - 
+not just that, it also adds two extra USB ports for your own devices!
+
 The hub's power rails are optionally rewire-able so that you can power it with 3.3V - 
 no idea if it will work, but definitely worth a try.
 All of the pins of the input connector are connected - this required some creative
