@@ -1,5 +1,13 @@
 # Framework input shim
 
+# WARNING - DO NOT ORDER
+
+The input connector symbol numbering is incorrect
+and this adapter will not work well.
+Please wait for version 2.
+
+--------------
+
 This is a small shim for the Framework laptop motherboard. It exposes the power button,
 a USB port with 5V power, keyboard backlight, and fingerprint LED connections.
 It is designed to fit inside the outline of the input connector FPC plug,
