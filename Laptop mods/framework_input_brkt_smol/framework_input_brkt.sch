@@ -127,28 +127,6 @@ Text Label 6750 3750 0    50   ~ 0
 5VS
 Text Label 6750 3650 0    50   ~ 0
 5VALW
-$Comp
-L Connector_Generic:Conn_02x25_Counter_Clockwise J2
-U 1 1 627884F8
-P 6550 3750
-F 0 "J2" H 6600 5167 50  0000 C CNN
-F 1 "input_conn" H 6600 5076 50  0000 C CNN
-F 2 "framework_input_brkt:Amphenol_10156001" H 6550 3750 50  0001 C CNN
-F 3 "~" H 6550 3750 50  0001 C CNN
-	1    6550 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 62794A5A
-P 8450 3350
-F 0 "J3" H 8530 3342 50  0000 L CNN
-F 1 "PWRSW" H 8530 3251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8450 3350 50  0001 C CNN
-F 3 "~" H 8450 3350 50  0001 C CNN
-	1    8450 3350
-	1    0    0    -1  
-$EndComp
 Text Label 8250 3350 2    50   ~ 0
 SWITCH
 $Comp
@@ -235,17 +213,6 @@ F 3 "" H 8250 3650 50  0001 C CNN
 	1    8250 3650
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 627B74CA
-P 8450 4650
-F 0 "J6" H 8530 4642 50  0000 L CNN
-F 1 "KBL" H 8530 4551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 8450 4650 50  0001 C CNN
-F 3 "~" H 8450 4650 50  0001 C CNN
-	1    8450 4650
-	1    0    0    -1  
-$EndComp
 Text Notes 5700 5300 0    50   ~ 0
 the connector that is meant to go on the input fpc\nand plug into a mobo
 $Comp
@@ -260,13 +227,9 @@ F 3 "" H 6750 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 6750 4350 0    50   ~ 0
-KBL_NP
+KBL_P
 Text Label 6750 4550 0    50   ~ 0
-KBL_PN
-Text Label 8250 4650 2    50   ~ 0
-KBL_NP
-Text Label 8250 4750 2    50   ~ 0
-KBL_PN
+KBL_P
 Wire Wire Line
 	8100 4150 8150 4150
 Wire Wire Line
@@ -284,5 +247,88 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 8150 2950 50  0001 C CNN
 F 3 "~" H 8150 2950 50  0001 C CNN
 	1    8150 2950
 	0    -1   -1   0   
+$EndComp
+$Comp
+L frmw_conn:fpc_input_conn J2
+U 1 1 6285596B
+P 6450 3750
+F 0 "J2" H 6500 5167 50  0000 C CNN
+F 1 "fpc_input_conn" H 6500 5076 50  0000 C CNN
+F 2 "framework_input_brkt:Amphenol_10156001" H 6450 3750 50  0001 C CNN
+F 3 "~" H 6450 3750 50  0001 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+Text Label 8550 5150 2    50   ~ 0
+CAPS_N
+Text Label 8550 5050 2    50   ~ 0
+KBL_P
+$Comp
+L power:GND #PWR0101
+U 1 1 6286BD9B
+P 6750 4450
+F 0 "#PWR0101" H 6750 4200 50  0001 C CNN
+F 1 "GND" V 6755 4322 50  0000 R CNN
+F 2 "" H 6750 4450 50  0001 C CNN
+F 3 "" H 6750 4450 50  0001 C CNN
+	1    6750 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6286CA6E
+P 6750 4650
+F 0 "#PWR0102" H 6750 4400 50  0001 C CNN
+F 1 "GND" V 6755 4522 50  0000 R CNN
+F 2 "" H 6750 4650 50  0001 C CNN
+F 3 "" H 6750 4650 50  0001 C CNN
+	1    6750 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6286CDB6
+P 6750 4950
+F 0 "#PWR0103" H 6750 4700 50  0001 C CNN
+F 1 "GND" V 6755 4822 50  0000 R CNN
+F 2 "" H 6750 4950 50  0001 C CNN
+F 3 "" H 6750 4950 50  0001 C CNN
+	1    6750 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 62875384
+P 8750 5050
+F 0 "J5" H 8830 5042 50  0000 L CNN
+F 1 "KnC" H 8830 4951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 8750 5050 50  0001 C CNN
+F 3 "~" H 8750 5050 50  0001 C CNN
+	1    8750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 62879DE0
+P 8550 4950
+F 0 "#PWR0104" H 8550 4700 50  0001 C CNN
+F 1 "GND" V 8500 4800 50  0000 R CNN
+F 2 "" H 8550 4950 50  0001 C CNN
+F 3 "" H 8550 4950 50  0001 C CNN
+	1    8550 4950
+	0    1    1    0   
+$EndComp
+Text Label 8550 5250 2    50   ~ 0
+CAPS_P_5V
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 62794A5A
+P 8450 3450
+F 0 "J3" H 8530 3442 50  0000 L CNN
+F 1 "PWRSW" H 8530 3351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8450 3450 50  0001 C CNN
+F 3 "~" H 8450 3450 50  0001 C CNN
+	1    8450 3450
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
