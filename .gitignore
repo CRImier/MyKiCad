@@ -1,8 +1,9 @@
-# Available on GH already
+# Custom directory excludes
+# :Available on GH already
 ZeroPhone-PCBs/ 
 ZeroPhone-Mod-PCBs/
 EEEoma/
-# Boring and not mine
+# :Not mine and/or boring
 Third-party/
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
@@ -17,6 +18,10 @@ Third-party/
 _autosave-*
 _saved_*
 *.tmp
+*-backups/
+
+# Project setting files
+*.kicad_prl
 
 # Netlist files (exported from Eeschema)
 *.net
