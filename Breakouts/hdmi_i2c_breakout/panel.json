@@ -1,0 +1,19 @@
+{
+    "layout": {
+        "rows": "5",
+        "cols": "3"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "Edge.Cuts"
+    },
+    "source": {
+        "tolerance": "5mm"
+    },
+    "framing": {
+        "type": "tightframe",
+        "width": "2mm",
+        "slotwidth": "0mm",
+        "fillet": "4mm"
+    }
+}

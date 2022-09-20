@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name sw_spdt_sh)(type Legacy)(uri ${KIPRJMOD}/sw_spdt_sh.lib)(options "")(descr ""))
+  (lib (name "sw_spdt_sh")(type "Legacy")(uri "${KIPRJMOD}/sw_spdt_sh.lib")(options "")(descr ""))
+  (lib (name "hdmi_i2c_breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/hdmi_i2c_breakout-rescue.lib")(options "")(descr ""))
 )
