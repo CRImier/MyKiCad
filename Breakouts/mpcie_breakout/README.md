@@ -16,16 +16,29 @@ the trace thickness and clearances for the diffpairs was not chosen with any spe
 The board is intended to be self-documenting - the signal numbers are silkscreened on the board,
 and the PCI-E pinout is written on the bottom of the board. There's also a mSATA pin mapping cheatsheet.
 
-Changes in v2:
-    SIM slot pinout has been fixed
-    Added 1117 footprint regulators for 3.3V and 1.5V lines
-    Made standoff holes more compatible with popular solderable standoffs
-    Made mounting holes M3 and M4 instead of random diameters, spaced them apart in a way that made more sense
-    Changed 0R resistors to 0603 - allowing easier handsoldering of the bottom side (bottom side has optional components for 1.5V and 3.3V regulators)
-    Made mPCIe socket alignment pin holes smaller so that they can actually help with alignment
-    Made a cutout for USB socket "lips" to allow for easier panelization
-    Added fiducials
-    Replaced the capacitor footprint with the one used in stock libraries
+## Changes in v3:
 
+- Moved to Kicad 5
+- PCIe diffpairs made a tad better
+
+## Changes in v2:
+
+- SIM slot pinout has been fixed
+- Added 1117 footprint regulators for 3.3V and 1.5V lines
+- Made standoff holes more compatible with popular solderable standoffs
+- Made mounting holes M3 and M4 instead of random diameters, spaced them apart in a way that made more sense
+- Changed 0R resistors to 0603 - allowing easier handsoldering of the bottom side (bottom side has optional components for 1.5V and 3.3V regulators)
+- Made mPCIe socket alignment pin holes smaller so that they can actually help with alignment
+- Made a cutout for USB socket "lips" to allow for easier panelization
+- Added fiducials
+- Replaced the capacitor footprint with the one used in stock libraries
+
+- Signal names are silkscreened on the board, top and bottom layers.
+- This repository also includes files for manufacturing a 3x2 panel.
+- I recommend a stencil for assembling this board.
+
+- Software: Kicad 6
+- Version: 3
 - PCB size: 73*42mm
 - Layer count: 2
+- Recommended thickness: non-thin
