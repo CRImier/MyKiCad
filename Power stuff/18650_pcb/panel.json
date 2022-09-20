@@ -1,0 +1,14 @@
+{
+    "layout": {
+        "alternation": "cols",
+        "rotation": "180deg",
+        "cols": "2"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "Edge.Cuts"
+    },
+    "source": {
+        "tolerance": "5mm"
+    }
+}
