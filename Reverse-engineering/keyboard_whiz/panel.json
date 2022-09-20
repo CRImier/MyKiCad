@@ -1,0 +1,19 @@
+{
+    "layout": {
+        "rows": "2"
+    },
+    "source": {
+        "tolerance": "50mm"
+    },
+    "tabs": {
+        "type": "full"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "cutcurves": "True"
+    },
+    "framing": {
+        "type": "railslr",
+        "hspace": "0mm"
+    }
+}
