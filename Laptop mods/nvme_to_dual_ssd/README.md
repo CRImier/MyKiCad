@@ -12,13 +12,17 @@ control signals and the SSD's physical placement.
 
 This board has no decoupling capacitors, and you're on your own when it comes to managing 3.3V power draw
 of two SSDs in a slot designed to power one. There seems to be enough 3.3V pins in an M-key slot for two SSDs,
-conceptually (each M.2 pin is 0.5A max, 9x0.5A = 4.5A), but I give you no guarantees that it works out for you power-wise.
-Also, if your chipset disables the SATA signal when it detects a PCI-E SSD, I can't help you with that either.
-You can sometimes steal a SATA signal from some other place on the board, or maybe even
-embed a USB-SATA converter inside your laptop ;-P
+conceptually (each M.2 pin is 0.5A max, 9x0.5A = 4.5A), and I've gone through laptop schematics available to
+see the power draw requirements. Turns out that M.2 SSDs are typically connected to the main 3.3V power rail
+of the laptop, which typically has quite a bit of power to spare.
+I give you no guarantees that it works out for you power-wise, but I'm optimistic.
+
+Also, if you're tapping a Pericom mux and chipset disables the SATA signal when it detects a PCI-E SSD, I can't help you with 
+that either. You can sometimes steal a SATA signal from some other place on the board, or maybe even embed a USB-SATA 
+converter inside your laptop ;-P
 
 There are resistors on the bottom for interrupting PCI-E&other control signals
-if any of them interfere with operation of your SSD:
+if any of them interfere with operation of your SSD, as unlikely as it is:
 
 * 1 interrupts DAA/DSS
 * 2 interrupts DEVSLP
