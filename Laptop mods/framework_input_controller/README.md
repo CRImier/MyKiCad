@@ -35,7 +35,7 @@ pinout mismatch issue, and checking the EC code when something wasn't clear to m
 Signal names are silkscreened on the board's bottom layers.
 This board is untested and there's no guarantees of fitness.
 
-- Software: Kicad 5
+- Software: Kicad 6
 - Version: 1
 - PCB size: 35x38.25mm
 - Layer count: 2
