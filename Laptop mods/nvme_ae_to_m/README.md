@@ -7,10 +7,9 @@ into SATA mode, but that doesn't happen all that often.
 
 M.2 socket position is calculated so that the board
 mechanically converts a 2230 card into a 2242 card - that's not terribly useful
-since most WiFi cards I see are 2242 already, I just didn't see any sense
-in changing the position.
+since most WiFi cards I see are 2230 already, I just didn't see any sense
+in changing the position. The board itself is 2230.
 FOXCONN AS0BC21-S20BM-7H socket datasheet was used for reference.
-This board could probably benefit from having a mounting hole, though.
 
 This board also breaks out A+E slot USB 2.0 signals, 3.3V and GND
 on a separate 4-pin 2mm pin header. It's mostly intended for you
@@ -29,10 +28,16 @@ to tap into any of the M.2 socket pins connected to the A+E pads. Use them wisel
 
 USB header pinout is silkscreened on the board's bottom layer.
 
+Changes in v2:
+
+- Removed capacitors
+- v1 had TX and RX pairs swapped, fixed in new revision
+
+- Software: Kicad 6
+- Version: 2
 - PCB size: 22*16,42
 - Layer count: 2
 - Recommended thickness: 0.8mm (M.2 card thickness)
-
 
 This board is available on Tindie!
 
