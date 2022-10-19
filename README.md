@@ -4,7 +4,7 @@ This is a repository where I upload [almost] everything that I design in KiCad.
 As usual, if you think your work warrants doing backups, just upload it to a git repo ;-P
 I hope this will be useful.
 
-About 16% of all of the PCBs have a README describing what they're meant for and
+About 50% of all of the PCBs have a README describing what they're meant for and
 the PCBs physical parameters, the README follows the TEMPLATE.md standard. I'll be
 adding more READMEs as I go.
 
@@ -21,4 +21,5 @@ At some point, hopefully, I'll make a good workflow to also add pictures to READ
 Scripts:
 
 - `make_gml.py` - creates .gml files in gerber folders by copying the .gm1 files. Useful for ThisIsNotRocketScience GerberPanelizer.
-
+- `check_kicad5_files.py` - shows you directories which have new Kicad6 kicad_pro and kicad_sch files but still contain old sch and pro files
+- `stats.sh` - shows PCB file and README file counts for gamification purposes

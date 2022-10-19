@@ -5,8 +5,8 @@
 
 echo -n "PCB count: "
 
-find . -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "_panel" | wc -l
+find . -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "Panels/" | grep -v "_panel" |grep -v "panel.kicad_pcb" | wc -l
 
 echo -n "README count: "
 
-find . -name "README.md" | grep -v "Third-party" | wc -l
+find . -name "README.md" | grep -v "Third-party" | grep -v "Panels/" | wc -l
