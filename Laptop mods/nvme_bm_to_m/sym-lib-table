@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name nvme)(type Legacy)(uri ${KIPRJMOD}/nvme.lib)(options "")(descr ""))
+  (lib (name "nvme")(type "Legacy")(uri "${KIPRJMOD}/nvme.lib")(options "")(descr ""))
+  (lib (name "nvme_bm_to_m-rescue")(type "Legacy")(uri "${KIPRJMOD}/nvme_bm_to_m-rescue.lib")(options "")(descr ""))
 )
