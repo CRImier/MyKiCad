@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "10p_fpc_breakout")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
+)
