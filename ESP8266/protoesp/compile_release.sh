@@ -12,7 +12,7 @@ zip -r $TARGET/"$PRJ"_source_$VERSION.zip . -x releases/\* -x protoesp.step
 # Gerber files
 echo "1) Gerbers"
 rm gerbers_$VERSION.zip || true
-zip $TARGET/"$PRJ"_gerbers_$VERSION.zip gerbers/
+zip -r $TARGET/"$PRJ"_gerbers_$VERSION.zip gerbers/
 # Schematic
 echo "2) Schematic"
 cp protoesp.pdf $TARGET/"$PRJ"_schematic_$VERSION.pdf
