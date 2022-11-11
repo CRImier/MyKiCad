@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "nvme")(type "KiCad")(uri "${KIPRJMOD}/nvme.kicad_sym")(options "")(descr ""))
+  (lib (name "nvme_bm_to_m-rescue")(type "KiCad")(uri "${KIPRJMOD}/nvme_bm_to_m-rescue.kicad_sym")(options "")(descr ""))
+)
