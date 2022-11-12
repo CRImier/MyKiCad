@@ -52,3 +52,14 @@ fp-info-cache
 
 # "rescue" backup files
 rescue-backup/
+
+# panel files
+panel*kicad_pcb
+panel*kicad_prl
+panel*kicad_pro
+
+# extra panel files - blacklisted until -f added
+panel_*.json
+
+# nano editor files
+.*.swp
