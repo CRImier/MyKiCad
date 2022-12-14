@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "vl170")(type "KiCad")(uri "${KIPRJMOD}/vl170.kicad_sym")(options "")(descr ""))
+  (lib (name "altmode_friend")(type "KiCad")(uri "${KIPRJMOD}/altmode_friend.kicad_sym")(options "")(descr ""))
+)
