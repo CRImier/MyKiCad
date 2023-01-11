@@ -11,6 +11,7 @@ Third-party/
 # Temporary files
 *.000
 *.sch-bak
+*.kicad_sch-bak
 *.bak
 *.bck
 *.kicad_pcb-bak
@@ -65,3 +66,6 @@ panel_*.json
 .*.swp
 
 \#auto_saved_files#
+
+# 3D files
+*.step
