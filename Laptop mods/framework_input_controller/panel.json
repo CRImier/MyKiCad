@@ -1,0 +1,28 @@
+{
+    "layout": {
+        "cols": "2"
+    },
+    "cuts": {
+        "type": "plugin",
+        "layer": "Edge.Cuts"
+    },
+    "framing": {
+        "type": "railslr",
+        "hspace": "0mm",
+        "width": "4mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "1.152mm",
+        "paste": "True"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "-37.5mm",
+        "voffset": "20mm",
+        "orientation": "270deg",
+        "text": "JLCJLCJLCJLC"
+    }
+}
