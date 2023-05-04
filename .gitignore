@@ -69,3 +69,6 @@ panel_*.json
 
 # 3D files
 *.step
+
+# BOM
+*.csv
