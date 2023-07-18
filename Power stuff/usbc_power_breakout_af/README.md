@@ -27,6 +27,14 @@ Both ports have their SBU pins broken out, just in case you're into that sort of
 This board has a VCONN jumper to 3.3V. If you want to supply your own VCONN, you need to disconnect
 both this jumper and the VCONN jumper on the AF module.
 
+New in v2:
+
+- Added mounting holes to the bottom parts of the board, with extra silk circles to avoid screws scratching through the board and shorting stuff out
+- Improved trace routing a tiny bit
+- Changed unconnected "VIN" pin on the right into "VBUS"; thickened traces for that
+- Made ground pads on the back of the protoboard vertical-only - more consistent
+- Is still stencil-compatible, apart from one diode having been slightly moved
+
 ## Notes
 
 - Signal names are silkscreened on the board, top and bottom layers.
@@ -34,8 +42,7 @@ both this jumper and the VCONN jumper on the AF module.
 
 ## Info
 
-- Software: Kicad 6
-- Version: 1
-- PCB size: w*h
+- Software: Kicad 7
+- Version: 2
+- PCB size: 46x46mm
 - Layer count: 2
-- Recommended thickness: t
