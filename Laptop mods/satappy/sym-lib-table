@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "nvme")(type "Legacy")(uri "${KIPRJMOD}/nvme_lib/nvme.lib")(options "")(descr ""))
+  (lib (name "pcb_sata_to_m2b-rescue")(type "Legacy")(uri "${KIPRJMOD}/pcb_sata_to_m2b-rescue.lib")(options "")(descr ""))
+)
