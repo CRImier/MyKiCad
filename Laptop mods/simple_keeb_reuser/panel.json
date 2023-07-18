@@ -1,0 +1,17 @@
+{
+    "layout": {
+        "alternation": "cols",
+        "rows": "2",
+        "cols": "2",
+        "rotation": "0deg"
+    },
+    "source": {
+        "tolerance": "3mm"
+    },
+    "tabs": {
+        "type": "full"
+    },
+    "cuts": {
+        "type": "vcuts"
+    }
+}
