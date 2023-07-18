@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name mpcie)(type Legacy)(uri ${KIPRJMOD}/mpcie_lib/mpcie.lib)(options "")(descr ""))
-  (lib (name nvme)(type Legacy)(uri ${KIPRJMOD}/nvme_lib/nvme.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "mpcie")(type "Legacy")(uri "${KIPRJMOD}/mpcie_lib/mpcie.lib")(options "")(descr ""))
+  (lib (name "nvme")(type "Legacy")(uri "${KIPRJMOD}/nvme_lib/nvme.lib")(options "")(descr ""))
+  (lib (name "mpcie_nvme_reversed-rescue")(type "KiCad")(uri "${KIPRJMOD}/mpcie_nvme_reversed-rescue.kicad_sym")(options "")(descr ""))
 )
