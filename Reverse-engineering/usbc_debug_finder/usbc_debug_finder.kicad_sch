@@ -1623,7 +1623,7 @@
     (property "Value" "Coin cell" (at 142.24 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Battery:Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles" (at 133.35 78.359 90)
+    (property "Footprint" "usbc_debug_finder:BAT-TH_BS-05-A1BJ001" (at 133.35 78.359 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 78.359 90)
