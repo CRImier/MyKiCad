@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "max3243")(type "Legacy")(uri "${KIPRJMOD}/max3243.lib")(options "")(descr ""))
+  (lib (name "jumper_3_sane")(type "Legacy")(uri "${KIPRJMOD}/jumper_3_sane.lib")(options "")(descr ""))
+  (lib (name "rs232_sniffer_board-rescue")(type "KiCad")(uri "${KIPRJMOD}/rs232_sniffer_board-rescue.kicad_sym")(options "")(descr ""))
+)

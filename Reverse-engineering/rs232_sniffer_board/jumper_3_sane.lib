@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Jumper_3_Open
+#
+DEF Jumper_3_Open JP 0 0 Y N 1 F N
+F0 "JP" -100 -150 50 V V C CNN
+F1 "Jumper_3_Open" 0 350 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*3Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40
+A 65 -30 89 1282 518 0 1 0 N 10 40 120 40
+C -130 0 20 0 0 0 N
+C 0 0 20 0 0 0 N
+C 130 0 20 0 0 0 N
+P 2 0 1 0 0 -20 0 -50 N
+X A 1 -150 100 100 D 50 50 1 1 P
+X C 2 0 -150 100 U 50 50 1 1 I
+X B 3 150 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
