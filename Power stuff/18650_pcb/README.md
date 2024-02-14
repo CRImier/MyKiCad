@@ -22,14 +22,19 @@ compatible with both SMD and THT holders
 12. side or top-press button footprint for triggering the protection circuit
 in case it's disabled after cell insertion
 13. silkscreen polarity markings for 18650 polarity
+14. onboard USB-C connector for charging
+
+## Notes
 
 - Signal names are silkscreened on the board, top and bottom layers.
 - This repository also includes files for manufacturing a 1x2 panel.
 - This board is untested and there's no guarantees of fitness.
 - I recommend a stencil for assembling this board.
 
-- Software: Kicad 6
-- Version: 2
+## Info
+
+- Software: Kicad 7
+- Version: 3
 - PCB size: 47,2x88mm
 - Layer count: 2
 - Recommended thickness: not thin
