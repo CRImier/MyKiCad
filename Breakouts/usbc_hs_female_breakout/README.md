@@ -7,14 +7,14 @@ That's because it's a 2-layer board. Use at your own risk.
 
 The side SMD-like connector pitch is 1.27mm. There's no silkscreen pinout markings sorryyyyy refer to the board okok
 
-This board works with KH-TYPE-C-24P-T9.87 sockets from LCSC, but you need to yeet the shield pins at the front >,<
-Also, the through-hole pins are too tight, your experience will vary with drill size used by your fab
+This board works with KH-TYPE-C-24P-T9.87 sockets from LCSC.
+Also, the through-hole pins might be too tight, your experience will vary with drill size used by your fab
 and resulting through-hole plating thickness.
 
 Insert the socket gently and don't push it too hard, make sure the needles align.
 I've already ruined one socket while assembling - get extras. Good luck. I believe in you - not just on this one, but on this one too.
 
-Text on the board says "USBCHSF brkt CRImier, v1".
+Text on the board says "USBCHSF brkt Arya, v2".
 
 ## Notes
 
