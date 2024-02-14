@@ -7,7 +7,7 @@
 
 Signal names are silkscreened on the board's bottom layers.
 
-- Software: Kicad 6
+- Software: Kicad 7
 - Version: ^__^
 - PCB size: 97.5mmx90mm
 - Layer count: 2
