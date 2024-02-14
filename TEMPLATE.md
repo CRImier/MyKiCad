@@ -11,7 +11,7 @@
 
 ## Info
 
-- Software: Kicad 6
+- Software: Kicad 7
 - Version: 1
 - PCB size: w*h
 - Layer count: 2
