@@ -1,0 +1,20 @@
+{
+    "layout": {
+        "hbackbone": "0.01mm",
+        "vbackbone": "0.01mm",
+        "rows": "3",
+        "cols": "3"
+    },
+    "tabs": {
+        "type": "full"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "spacing": "0.635mm"
+    },
+    "framing": {
+        "type": "frame",
+        "hspace": "0mm",
+        "vspace": "0mm"
+    }
+}
