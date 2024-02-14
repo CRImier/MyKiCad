@@ -37,4 +37,4 @@ as well as the XKB Connectivity U261-241N-4BS60 plug.
 - Version: 1
 - PCB size: 28x11mm
 - Layer count: 2
-- Recommended thickness: 0.8mm (for USB-C plug)
+- Recommended thickness: 0.8mm or 1mm (for USB-C plug)
