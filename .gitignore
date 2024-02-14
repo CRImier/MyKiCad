@@ -30,12 +30,13 @@ _saved_*
 # Autorouter files (exported from Pcbnew)
 .dsn
 
-# Exported BOM files
+# Exported BOM and Gerber files
 # *.xml
-# *.csv
+*.csv
 Thumbs.db
 gerbers/
 gerbers_*/
+production*/
 
 # Archive files
 *.zip
