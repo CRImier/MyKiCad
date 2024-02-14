@@ -73,6 +73,10 @@ panel_*.json
 # BOM
 *.csv
 
+# KiCad lock file
+*.lck
+
 amogus.*
 
 Panels/
+
