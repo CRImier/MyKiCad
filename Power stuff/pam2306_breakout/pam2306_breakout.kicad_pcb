@@ -1008,7 +1008,7 @@
   (gr_text "VO  G  VIN G  EN" (at 105.4 72.6 180) (layer "B.SilkS") (tstamp 131872ac-ef77-454d-82fe-955fe0668e7c)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "PAM2306\nbreakout\n\n\n\nby Arya\nv1" (at 117.3 78.7 90) (layer "B.SilkS") (tstamp e0fd9b1d-e10d-4cb7-962c-dca1db57217e)
+  (gr_text "PAM2306\nbreakout\n\ntrans rights\n\nby Arya\nv1" (at 117.3 78.7 90) (layer "B.SilkS") (tstamp e0fd9b1d-e10d-4cb7-962c-dca1db57217e)
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom mirror))
   )
   (gr_text "VO  G  VIN G  EN" (at 118 84.8) (layer "B.SilkS") (tstamp e5f91638-87ad-46fb-acba-e3796aa84c7c)
