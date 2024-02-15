@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nep_header")(type "KiCad")(uri "${KIPRJMOD}/nep_header.kicad_sym")(options "")(descr ""))
+)
