@@ -1,37 +1,10 @@
-# Framework Mainboard Left Half
+# Framework Display Shim
 
 This is a start for reimplementing the Framework Mainboard.
+Currently, this board is a USB-C DP altmode to Framework display adapter,
+using the same connector and pinout that the Framework mainboard uses.
 
-There's not much work here for now - the sch has some connectors, but that's it.
-
-Specifically, audio FPC, two USB-C, eDP, battery, fan, speaker and display connectors 
-found on the left half of the board. Given that they're all clustered together,
-this is the best first step for experimentation.
-
-Zero amount of PCB work has been done so far. Only SCH files are present,
-very much in skeleton state.
-
-Connectors needed:
-
-```
-x - done
-n - not needed
-s - symbol
-f - footprint
-
-[s] [f]
-[n] [x] input cover connector (available in other repo)
-[x] [ ] usb-c connectors
-[x] [ ] audio board connector
-[x] [x] fan connector (JST in def lib)
-[x] [x] speaker connector (JST in def lib)
-[x] [ ] battery connector
-[x] [ ] display connector
-[n] [ ] camera connector
-[n] [x] wifi connector (available in other repo)
-[n] [x] ssd connector (available in other repo)
-         * ? mb best left up to the implementer
-```
+This has not been tested yet, even though I've assembled a few.
 
 ## Notes
 
@@ -40,8 +13,8 @@ f - footprint
 
 ## Info
 
-- Software: Kicad 6
-- Version: 1
-- PCB size: w*h (none so far)
-- Layer count: 4
-- Recommended thickness: 1mm (need to recheck Framework mainboard thickness)
+- Software: Kicad 7
+- Version: 2
+- PCB size: w*h
+- Layer count: 6
+- Recommended thickness: 0.8mm/1mm (needs to match Framework mainboard thickness)
