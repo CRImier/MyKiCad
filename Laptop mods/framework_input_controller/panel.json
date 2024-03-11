@@ -1,27 +1,33 @@
 {
     "layout": {
-        "cols": "2"
+        "hspace": "4mm",
+        "rotation": "90deg",
+        "cols": "2",
+        "vbonecut": "False"
     },
     "cuts": {
-        "type": "plugin",
-        "layer": "Edge.Cuts"
+        "type": "mousebites"
     },
     "framing": {
-        "type": "railslr",
-        "hspace": "0mm",
-        "width": "4mm"
+        "type": "frame"
     },
     "tooling": {
         "type": "4hole",
-        "hoffset": "2.5mm",
-        "voffset": "2.5mm",
+        "hoffset": "3mm",
+        "voffset": "3mm",
         "size": "1.152mm",
         "paste": "True"
     },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "3mm",
+        "voffset": "16.5mm",
+        "opening": "3mm"
+    },
     "text": {
         "type": "simple",
-        "hoffset": "-37.5mm",
-        "voffset": "20mm",
+        "hoffset": "-44.5mm",
+        "voffset": "29mm",
         "orientation": "270deg",
         "text": "JLCJLCJLCJLC"
     }
