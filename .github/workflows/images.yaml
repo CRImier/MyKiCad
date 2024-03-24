@@ -22,7 +22,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "${GITHUB_WORKSPACE}"
+          path: "${{ github.workspace }}"
 
   deploy-pages:
     if: github.ref == 'refs/heads/master'
