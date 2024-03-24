@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Render images
-        run: find ${GITHUB_WORKSPACE} -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "Panels/" | grep -v "_panel" | grep -v "panel.kicad_pcb" | xargs -I {} bash -c "bash $GITHUB_WORKSPACE/.github/workflows/render.sh \"{}\" $GITHUB_WORKSPACE/images"
+        run: find ${GITHUB_WORKSPACE} -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "Panels/" | grep -v "_panel" | grep -v "panel.kicad_pcb" | xargs -I {} bash -c "bash render-pcb.sh \"{}\""
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/master'
