@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Render images
-        run: find ${GITHUB_WORKSPACE} -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "Panels/" | grep -v "_panel" | grep -v "panel.kicad_pcb" | xargs -I {} bash -c "bash render-pcb.sh \"{}\""
+        run: find ${GITHUB_WORKSPACE} -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "Panels/" | grep -v "_panel" | grep -v "panel.kicad_pcb" | xargs -I {} bash -c "bash render-pcb.sh -f \"{}\""
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/master'
@@ -22,7 +22,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "images"
+          path: "${GITHUB_WORKSPACE}"
 
   deploy-pages:
     if: github.ref == 'refs/heads/master'
