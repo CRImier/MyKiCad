@@ -32,6 +32,11 @@ giving advice on its integration
 pinout mismatch issue, checking the EC code when something wasn't clear to me,
 and helping out with the firmware
 
+## Images
+
+![top](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_input_controller/framework_input_brkt_top.png)
+![bottom](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_input_controller/framework_input_brkt_bottom.png)
+
 ## Changes made in v2:
 
 - fixed GND fill between three adjacent GND pins (15-17) of the Input Cover controller
