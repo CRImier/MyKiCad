@@ -34,8 +34,8 @@ and helping out with the firmware
 
 ## Images
 
-![top](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_input_controller/framework_input_brkt_top.png)
-![bottom](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_input_controller/framework_input_brkt_bottom.png)
+![top img](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_input_controller/framework_input_brkt_top.png)
+![bottom img](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_input_controller/framework_input_brkt_bottom.png)
 
 ## Changes made in v2:
 
