@@ -1,0 +1,43 @@
+name: render pcb images
+on:
+  push:
+jobs:
+  render_pcb_images:
+    name: render pcb images
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/linalinn/kicad-render:nightly
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Render images
+        run: find ${GITHUB_WORKSPACE} -name "*.kicad_pcb" | grep -v "Third-party" | grep -v "Panels/" | grep -v "_panel" | grep -v "panel.kicad_pcb" | xargs -I {} bash -c "bash render-pcb.sh -f \"{}\""
+
+      - name: Setup Pages
+        if: github.ref == 'refs/heads/master'
+        uses: actions/configure-pages@v3
+
+      - name: Upload Artifact
+        if: github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "${{ github.workspace }}"
+
+  deploy-pages:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    needs: render_pcb_images
+    
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
