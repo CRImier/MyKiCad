@@ -4,7 +4,12 @@ This is a start for reimplementing the Framework Mainboard.
 Currently, this board is a USB-C DP altmode to Framework display adapter,
 using the same connector and pinout that the Framework mainboard uses.
 
-This has not been tested yet, even though I've assembled a few.
+This adapter is currently going through the testing process, with a number of fundamental fixes scheduled for the v3 version.
+
+## Images
+
+![top img](https://crimier.github.io/MyKiCad/Laptop mods/framework_mobo_lefthalf/framework_mobo_lefthalf_top.png)
+![bottom img](https://crimier.github.io/MyKiCad/Laptop mods/framework_mobo_lefthalf/framework_mobo_lefthalf_bottom.png)
 
 ## Notes
 
