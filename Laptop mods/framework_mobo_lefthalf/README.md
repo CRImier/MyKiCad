@@ -8,8 +8,8 @@ This adapter is currently going through the testing process, with a number of fu
 
 ## Images
 
-![top img](https://crimier.github.io/MyKiCad/Laptop mods/framework_mobo_lefthalf/framework_mobo_lefthalf_top.png)
-![bottom img](https://crimier.github.io/MyKiCad/Laptop mods/framework_mobo_lefthalf/framework_mobo_lefthalf_bottom.png)
+![top img](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_mobo_lefthalf/framework_mobo_lefthalf_top.png)
+![bottom img](https://crimier.github.io/MyKiCad/Laptop%20mods/framework_mobo_lefthalf/framework_mobo_lefthalf_bottom.png)
 
 ## Notes
 
