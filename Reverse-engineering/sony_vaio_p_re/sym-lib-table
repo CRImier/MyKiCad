@@ -3,4 +3,5 @@
   (lib (name "AXK760347G")(type "KiCad")(uri "${KIPRJMOD}/lib/AXK760347G.kicad_sym")(options "")(descr ""))
   (lib (name "LP8551")(type "KiCad")(uri "${KIPRJMOD}/lib/LP8551.kicad_sym")(options "")(descr ""))
   (lib (name "CAT4106")(type "KiCad")(uri "${KIPRJMOD}/lib/CAT4106.kicad_sym")(options "")(descr ""))
+  (lib (name "esd_small")(type "KiCad")(uri "${KIPRJMOD}/lib/esd_small.kicad_sym")(options "")(descr ""))
 )
