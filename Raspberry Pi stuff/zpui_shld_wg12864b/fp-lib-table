@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "zpui_shld_wg12864b")(type "KiCad")(uri "/home/arsenijs/pcb/KiCad/Raspberry Pi stuff/zpui_shld_wg12864b")(options "")(descr ""))
+)
