@@ -6,7 +6,7 @@ The assembly should be pretty easy - as long as you have 8 buttons of the simple
 and a pin header to connect this to a Pi, it should work wonders. It's designed to work with [ZPUI](https://zpui.readthedocs.io/en/latest/) - 
 "making this card work" software updates are to be pushed imminently!
 
-Any questions? Join zerophone:matrix.org on Matrix, or [message me](https://linktr.ee/CRImier) for setup/assembly instructions!
+Any questions? Join [#zerophone:matrix.org](https://github.com/CRImier/MyKiCad/tree/master/Raspberry%20Pi%20stuff/zpui_businesscard) on Matrix, or [message me](https://linktr.ee/CRImier) for setup/assembly instructions!
 
 ## Images
 
