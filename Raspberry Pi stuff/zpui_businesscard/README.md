@@ -3,10 +3,13 @@
 ## Are you here from the link on the businesscard?
 
 The assembly should be pretty easy - as long as you have 8 buttons of the simplest kind, an generic 4-pin I2C OLED screen,
-and a pin header to connect this to a Pi, it should work wonders. It's designed to work with [ZPUI](https://zpui.readthedocs.io/en/latest/) - 
-"making this card work" software updates are to be pushed imminently!
+and a pin header to connect this to a Pi, it should work wonders. It's designed to work with [ZPUI](https://zpui.readthedocs.io/en/latest/)!
 
-Any questions? Join [#zerophone:matrix.org](https://github.com/CRImier/MyKiCad/tree/master/Raspberry%20Pi%20stuff/zpui_businesscard) on Matrix, or [message me](https://linktr.ee/CRImier) for setup/assembly instructions!
+### Update 04.02.25
+
+ZPUI has been polished back up to function. Docs on the businesscard software setup are in progress!
+
+Any questions? Join [#zerophone:matrix.org](https://github.com/CRImier/MyKiCad/tree/master/Raspberry%20Pi%20stuff/zpui_businesscard) on Matrix, or [message me](https://linktr.ee/CRImier) for setup/assembly help!
 
 ## Images
 
