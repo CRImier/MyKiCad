@@ -1531,15 +1531,16 @@
 			(pintype "passive")
 			(uuid "6cdcc031-b59d-4e7d-9e0b-e02d5cec0792")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/Adafruit_SSD1306.step"
+			(hide yes)
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -2673,17 +2674,6 @@
 			(pintype "passive")
 			(uuid "b0a2c70f-96b5-4778-b3fb-e23035bcab72")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "zpui_businesscard:SW_SPST_PTS645"
 		(layer "F.Cu")
@@ -3696,17 +3686,6 @@
 			(pintype "passive")
 			(uuid "3f3aea41-dee4-4f61-b15d-431b06988106")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "zpui_businesscard:SW_SPST_PTS645"
 		(layer "F.Cu")
@@ -4310,17 +4289,6 @@
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(uuid "82dc2074-f0db-4704-af5c-dde381c2b1b3")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "zpui_businesscard:SW_SPST_PTS645"
@@ -4972,17 +4940,6 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "992167f3-2b7f-451f-b487-acbe6217f553")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "zpui_businesscard:SW_SPST_PTS645"
@@ -6990,17 +6947,6 @@
 			(pintype "passive")
 			(uuid "db725533-08d0-47bd-a835-121046a25a96")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "zpui_businesscard:R_0603_1608Metric_Jumper"
 		(layer "B.Cu")
@@ -7452,17 +7398,6 @@
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "69760a6f-7cad-487b-a411-ebdd0f0f83ee")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "zpui_businesscard:R_0603_1608Metric_Jumper"
@@ -8722,17 +8657,6 @@
 			(net 13 "+3V3")
 			(pintype "passive")
 			(uuid "52894c24-b5ce-486c-9f82-daf065d7c1ff")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "zpui_businesscard:R_0603_1608Metric_Jumper"
@@ -10361,6 +10285,7 @@
 			(uuid "44d53eea-fe6e-4c9b-a143-c9ef5fae168f")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
