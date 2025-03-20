@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "4GMODEM")(type "KiCad")(uri "${KIPRJMOD}/4GMODEM.kicad_sym")(options "")(descr ""))
+)
