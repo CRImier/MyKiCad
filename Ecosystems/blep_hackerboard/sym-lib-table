@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "blep_audio")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/blep_audio.kicad_sym")(options "")(descr ""))
+  (lib (name "codec")(type "KiCad")(uri "${KIPRJMOD}/codec.kicad_sym")(options "")(descr ""))
+)
